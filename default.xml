@@ -468,7 +468,6 @@
   <project path="external/Focal" name="xplodwild/android_external_Focal" remote="github" revision="master" />
   <project path="packages/apps/Focal" name="xplodwild/android_packages_apps_Focal" remote="github" revision="master" />
   <project path="packages/apps/HALO" name="ParanoidAndroid/HALO" remote="github" revision="jb43" />
-  <project name="temasek/android_libcore/" path="libcore" remote="github" revision="cm-10.2" />
   <project name="temasek/android_device_asus_tilapia" path="device/asus/tilapia" remote="github" revision="cm-10.2" />
   <remote fetch="https://github.com/TheMuppets/" name="TheMuppets" review="http://review.cyanogenmod.org/" />
   <project name="proprietary_vendor_samsung/" path="vendor/samsung" remote="TheMuppets" revision="cm-10.2" />
