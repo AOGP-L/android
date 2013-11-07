@@ -292,7 +292,7 @@
   <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" groups="pdk" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" />
   <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" groups="pdk" />
-  <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" />
+  <project path="frameworks/support" name="CM-i9300-builds/android_frameworks_support" />
   <project path="frameworks/testing" name="CyanogenMod/android_frameworks_testing" />
   <project path="frameworks/uiautomator" name="platform/frameworks/uiautomator" remote="aosp" revision="refs/tags/android-4.4_r1" />
   <project path="frameworks/volley" name="CyanogenMod/android_frameworks_volley" />
@@ -350,7 +350,7 @@
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" />
   <project path="packages/apps/InCallUI" name="CyanogenMod/android_packages_apps_InCallUI" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
-  <project path="packages/apps/Launcher3" name="CyanogenMod/android_packages_apps_Launcher3" />
+  <project path="packages/apps/Launcher3" name="CM-i9300-builds/android_packages_apps_Launcher3" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" />
   <project path="packages/apps/Mms" name="CyanogenMod/android_packages_apps_Mms" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
