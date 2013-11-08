@@ -469,7 +469,7 @@
   <project path="packages/apps/HALO" name="ParanoidAndroid/HALO" remote="github" revision="jb43" />
   <project name="temasek/android_device_asus_tilapia" path="device/asus/tilapia" remote="github" revision="cm-10.2" />
   <remote fetch="https://github.com/TheMuppets/" name="TheMuppets" review="http://review.cyanogenmod.org/" />
-  <project name="proprietary_vendor_samsung/" path="vendor/samsung" remote="TheMuppets" revision="cm-10.2" />
+  <project name="proprietary_vendor_samsung" path="vendor/samsung" remote="TheMuppets" revision="cm-10.2" />
   <project name="proprietary_vendor_asus" path="vendor/asus" remote="TheMuppets" revision="cm-10.2" />
   <project name="proprietary_vendor_broadcom" path="vendor/broadcom" remote="TheMuppets" revision="cm-10.2" />
   <project name="proprietary_vendor_elan" path="vendor/elan" remote="TheMuppets" revision="cm-10.2" />
