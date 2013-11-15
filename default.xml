@@ -361,6 +361,7 @@
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" remote="github" revision="cm-11.0" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" remote="github" revision="cm-11.0" />
   <project path="packages/apps/Settings" name="CM-i9300-builds/android_packages_apps_Settings" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/ScreenRecorder" name="ChameleonOS/android_packages_apps_ScreenRecorder" remote="github" revision="kitkat-staging"/>
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" remote="github" revision="cm-11.0" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" remote="github" revision="cm-11.0" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" remote="github" revision="cm-11.0" />
