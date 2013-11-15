@@ -207,8 +207,7 @@
   <project path="external/neven" name="CyanogenMod/android_external_neven" />
   <project path="external/nist-pkits" name="platform/external/nist-pkits" remote="aosp" />
   <project path="external/nist-sip" name="CyanogenMod/android_external_nist-sip" />
-  <!-- apparently, requesting the tag is randomly returning bad results on this  one... fix whenever we update tags. see prebuilts/sdk -->
-  <project path="external/noto-fonts" name="platform/external/noto-fonts" remote="aosp" revision="90372d894b5d9c9f2a111315d2eb3b8de1979ee4" />
+  <project path="external/noto-fonts" name="platform/external/noto-fonts" remote="aosp" />
   <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" />
   <project path="external/oauth" name="CyanogenMod/android_external_oauth" />
   <project path="external/objenesis" name="platform/external/objenesis" remote="aosp" />
@@ -440,7 +439,7 @@
   <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" remote="aosp" groups="pdk" />
   <project path="prebuilts/runtime" name="platform/prebuilts/runtime" remote="aosp" />
   <!-- apparently, requesting the tag is randomly returning bad results on this  one... fix whenever we update tags. see external/noto-fonts -->
-  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="b52073d9cb1b044f4701bfc32e60b927323740fb" groups="pdk" />
+  <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" groups="pdk,tools" />
   <project path="sdk" name="CyanogenMod/android_sdk" />
   <project path="system/core" name="CyanogenMod/android_system_core" groups="pdk" />
