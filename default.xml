@@ -4,10 +4,10 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            revision="refs/tags/android-4.4_r1.1"
-		   review="android-review.googlesource.com" />
+	   review="android-review.googlesource.com" />
 		   
   <remote  name="github"
-           fetch="https://github.com" />
+           fetch="https://github.com"
            
   <remote  name="cm"
            fetch="https://github.com"
@@ -16,7 +16,7 @@
 	
   <remote  name="cmi9300"
            fetch="https://github.com"
-           revision="refs/heads/cm-11.0" />
+           revision="refs/heads/cm-11.0"
 	
   <remote  name="private"
            fetch="ssh://git@github.com" />
