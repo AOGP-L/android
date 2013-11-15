@@ -24,7 +24,7 @@
   <default sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="CM-i9300-builds/android_build" groups="pdk" remote="cmi9300" />
+  <project path="build" name="CM-i9300-builds/android_build" groups="pdk" remote="cmi9300" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
