@@ -157,7 +157,7 @@
   <project path="external/kissfft" name="CyanogenMod/android_external_kissfft" remote="github" revision="cm-11.0" />
   <project path="external/koush/ion" name="CyanogenMod/ion" remote="github" revision="cm-11.0" />
   <project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" remote="github" revision="cm-11.0" />
-  <project path="external/koush/Superuser" name="koush/Superuser" remote="github" revision="wip" />
+  <project path="external/koush/Superuser" name="koush/Superuser" remote="github" revision="master" />
   <project path="external/koush/Widgets" name="koush/Widgets" remote="github" revision="master" />
   <project path="external/libcap-ng" name="CyanogenMod/android_external_libcap-ng" remote="github" revision="cm-11.0" />
   <project path="external/libffi" name="CyanogenMod/android_external_libffi" remote="github" revision="cm-11.0" />
