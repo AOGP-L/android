@@ -469,9 +469,4 @@
   <project name="temasek/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-11.0" />
   <project path="packages/apps/HALO" name="ParanoidAndroid/HALO" remote="github" revision="jb43" />
   <project path="vendor/samsung" name="temasek/proprietary_vendor_samsung" remote="github" revision="cm-11.0" />
-  <project name="CyanogenMod/android_device_samsung_manta" path="device/samsung/manta" remote="github" revision="cm-11.0" />
-  <project name="TheMuppets/proprietary_vendor_audience" path="vendor/audience" remote="github" revision="cm-11.0" />
-  <project name="TheMuppets/proprietary_vendor_broadcom" path="vendor/broadcom" remote="github" revision="cm-11.0" />
-  <project name="TheMuppets/proprietary_vendor_widevine" path="vendor/widevine" remote="github" revision="cm-11.0" />
-  <project name="kernel/exynos" path="kernel/samsung/manta" remote="aosp" revision="android-exynos-manta-3.4-kitkat-mr0" />
 </manifest>
