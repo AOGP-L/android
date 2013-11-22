@@ -476,6 +476,6 @@
   <project name="CyanogenMod/android_kernel_samsung_manta" path="kernel/samsung/manta" remote="github" revision="cm-11.0" />
   <project name="CyanogenMod/android_device_asus_flo" path="device/asus/flo" remote="github" revision="cm-11.0" />
   <project name="TheMuppets/proprietary_vendor_asus" path="vendor/asus" remote="github" revision="cm-11.0" />
-  <project name="CyanogenMod/android_device_asus_deb" path="device/asus/deb" remote="github" revision="cm-11.0" />
+  <project name="CyanogenMod/android_device_asus_deb" path="device/asus/deb" remote="github" revision="cm-10.2" />
   <project name="ModdedPA/android_kernel_google_msm" path="kernel/google/msm" remote="github" revision="android-msm-flo-3.4-kitkat-mr0" />
 </manifest>
