@@ -470,4 +470,5 @@
   <project path="packages/apps/HALO" name="ParanoidAndroid/HALO" remote="github" revision="jb43" />
   <project path="vendor/samsung" name="temasek/proprietary_vendor_samsung" remote="github" revision="cm-11.0" />
   <project name="CyanogenMod/android_device_samsung_manta" path="device/samsung/manta" remote="github" revision="cm-11.0" />
+  <project name="TheMuppets/proprietary_vendor_audience" path="vendor/audience" remote="github" revision="cm-11.0" />
 </manifest>
