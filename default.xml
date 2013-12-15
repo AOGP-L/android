@@ -483,4 +483,8 @@
   <project name="TheMuppets/proprietary_vendor_broadcom" path="vendor/broadcom" remote="github" revision="cm-11.0" />
   <project name="TheMuppets/proprietary_vendor_widevine" path="vendor/widevine" remote="github" revision="cm-11.0" />
   <project name="CyanogenMod/android_kernel_samsung_manta" path="kernel/samsung/manta" remote="github" revision="cm-11.0" />
+  <project name="TheMuppets/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="cm-11.0" />
+  <project name="CyanogenMod/android_kernel_htc_m7" path="kernel/htc/m7" remote="github" revision="cm-11.0" />
+  <project name="CyanogenMod/android_device_htc_m7-common" path="device/htc/m7-common" remote="github" revision="cm-11.0" />
+  <project name="CyanogenMod/android_device_htc_m7ul" path="device/htc/m7ul" remote="github" revision="cm-11.0" />
 </manifest>
