@@ -475,7 +475,7 @@
   <project name="CM-i9300-builds/android_device_samsung_i9300" path="device/samsung/i9300" remote="github" revision="cm-11.0" />
   <project name="CyanogenMod/android_device_samsung_i9305" path="device/samsung/i9305" remote="github" revision="cm-11.0" />
   <project name="temasek/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-11.0" />
-  <project name="temasek/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-11.0" />
+  <project name="CM-i9300-builds/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-11.0" />
   <project path="packages/apps/HALO" name="ParanoidAndroid/HALO" remote="github" revision="jb43" />
   <project path="vendor/samsung" name="temasek/proprietary_vendor_samsung" remote="github" revision="cm-11.0" />
   <project name="CM-i9300-builds/android_device_samsung_manta" path="device/samsung/manta" remote="github" revision="cm-11.0" />
