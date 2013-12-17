@@ -273,7 +273,7 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" remote="github" revision="cm-11.0" />
   <project path="frameworks/av" name="temasek/android_frameworks_av/" remote="github" revision="cm-11.0" />
-  <project path="frameworks/base" name="temasek/android_frameworks_base" remote="github" revision="cm-11.0" />
+  <project path="frameworks/base" name="CM-i9300-builds/android_frameworks_base" remote="github" revision="cm-11.0" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" remote="github" revision="cm-11.0" />
@@ -363,7 +363,7 @@
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" remote="github" revision="cm-11.0" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" remote="github" revision="cm-11.0" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" remote="github" revision="cm-11.0" />
-  <project path="packages/apps/Settings" name="temasek/android_packages_apps_Settings" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/Settings" name="CM-i9300-builds/android_packages_apps_Settings" remote="github" revision="cm-11.0" />
   <project path="packages/apps/ScreenRecorder" name="temasek/android_packages_apps_ScreenRecorder" remote="github" revision="cm-11.0"/>
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" remote="github" revision="cm-11.0" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" remote="github" revision="cm-11.0" />
@@ -472,7 +472,7 @@
   <project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-11.0" />
   <project name="temasek/android_device_samsung_smdk4412-common" path="device/samsung/smdk4412-common" remote="github" revision="cm-11.0" />
   <project name="CyanogenMod/android_device_samsung_smdk4412-qcom-common" path="device/samsung/smdk4412-qcom-common" remote="github" revision="cm-11.0" />
-  <project name="temasek/android_device_samsung_i9300" path="device/samsung/i9300" remote="github" revision="cm-11.0" />
+  <project name="CM-i9300-builds/android_device_samsung_i9300" path="device/samsung/i9300" remote="github" revision="cm-11.0" />
   <project name="CyanogenMod/android_device_samsung_i9305" path="device/samsung/i9305" remote="github" revision="cm-11.0" />
   <project name="temasek/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-11.0" />
   <project name="temasek/android_kernel_samsung_smdk4412" path="kernel/samsung/smdk4412" remote="github" revision="cm-11.0" />
