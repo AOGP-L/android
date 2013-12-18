@@ -486,7 +486,7 @@
   <project name="TheMuppets/proprietary_vendor_htc" path="vendor/htc" remote="github" revision="cm-11.0" />
   <project name="CyanogenMod/android_kernel_htc_m7" path="kernel/htc/m7" remote="github" revision="cm-11.0" />
   <project name="CyanogenMod/android_device_htc_m7-common" path="device/htc/m7-common" remote="github" revision="cm-11.0" />
-  <project name="CyanogenMod/android_device_htc_m7ul" path="device/htc/m7ul" remote="github" revision="cm-11.0" />
+  <project name="CM-i9300_builds/android_device_htc_m7ul" path="device/htc/m7ul" remote="github" revision="cm-11.0" />
   <project name="CM-i9300-builds/android_device_asus_flo" path="device/asus/flo" remote="github" revision="cm-11.0" />
   <project name="CyanogenMod/android_device_htc_msm8960-common" path="device/htc/msm8960-common" remote="github" revision="cm-11.0" />
   <project name="TheMuppets/proprietary_vendor_asus" path="vendor/asus" remote="github" revision="cm-11.0" />
