@@ -370,7 +370,7 @@
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" remote="github" revision="cm-11.0" />
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" remote="github" revision="cm-11.0" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" remote="github" revision="cm-11.0" />
-  <project path="packages/apps/TUBWallpapers" name="CM-i9300-builds/android_packages_apps_TUBWallpapers" />
+  <project path="packages/apps/TUBwallpapers" name="CM-i9300-builds/android_packages_apps_TUBwallpapers" remote="github" revision="cm-11.0" />
   <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" remote="github" revision="cm-11.0" />
   <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail" remote="github" revision="cm-11.0" />
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" remote="github" revision="cm-11.0" />
