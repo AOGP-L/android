@@ -494,4 +494,9 @@
   <project name="TheMuppets/proprietary_vendor_asus" path="vendor/asus" remote="github" revision="cm-11.0" />
   <project name="CyanogenMod/android_kernel_google_msm" path="kernel/google/msm" remote="github" revision="cm-11.0" />
   <project name="CM-i9300-builds/android_device_asus_deb" path="device/asus/deb" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_device_samsung_hltexx/" path="device/samsung/hltexx" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_device_samsung_qcom-common" path="device/samsung/qcom-common" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_device_samsung_hlte-common/" path="device/samsung/hlte-common" remote="github" revision="cm-11.0" />
+  <project name="temasek/android_kernel_samsung_hlte/" path="kernel/samsung/hlte" remote="github" revision="cm-11.0" />
 </manifest>
