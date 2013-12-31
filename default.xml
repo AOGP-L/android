@@ -499,7 +499,7 @@
   <project name="temasek/android_device_samsung_msm8960-common" path="device/samsung/msm8960-common" remote="github" revision="cm-11.0" />
   <project name="temasek/android_device_samsung_hlte-common/" path="device/samsung/hlte-common" remote="github" revision="cm-11.0" />
   <project name="temasek/android_kernel_samsung_hlte/" path="kernel/samsung/hlte" remote="github" revision="cm-11.0" />
-  <project path="device/generic/armv7-a" name="device/generic/armv7-a" groups="pdk" remote="aosp" revision="refs/tags/android-4.4.2_r1"/>
+  <project path="device/generic/armv7-a" name="CyanogenMod/android_device_generic_armv7-a" groups="pdk" remote="github" revision="cm-10.1"/>
   <project path="vendor/broadcom/wingray" name="Schischu/android_vendor_broadcom_wingray" remote="github" revision="android-4.3" />
   <project path="vendor/moto/stingray" name="Schischu/android_vendor_moto_wingray" remote="github" revision="android-4.3" />
   <project path="vendor/nvidia/wingray" name="Schischu/android_vendor_nvidia_wingray" remote="github" revision="android-4.3" />
