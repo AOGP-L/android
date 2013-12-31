@@ -12,7 +12,7 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
-  <remote  name="bit"
+  <remote  name="bitbucketP"
            fetch="ssh://git@bitbucket.org" />
            
 
@@ -26,8 +26,10 @@
   </project>
 
   <project path="android" name="CM-i9300-builds/android" remote="github" revision="cm-11.0" />
-
-  <project path="scripts" name="team-ub/android_scripts" remote="bit" revision="master" />
+  
+  <!-- This project below would need to be removed if you wish to use our repo as its private and therefore will not 
+  sync out custom build scripts -->
+  <project path="scripts" name="team-ub/android_scripts" remote="bitbucketP" revision="master" />
 
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" remote="github" revision="cm-11.0" />
