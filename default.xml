@@ -12,6 +12,10 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
+  <remote  name="bit"
+           fetch="ssh://git@bitbucket.org" />
+           
+
   <default revision="cm-11.0"
            remote="github"
            sync-c="true"
@@ -22,6 +26,9 @@
   </project>
 
   <project path="android" name="CM-i9300-builds/android" remote="github" revision="cm-11.0" />
+
+  <project path="scripts" name="team-ub/android_scripts" remote="bit" revision="master" />
+
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="art" name="CM-i9300-builds/android_art" remote="github" revision="cm-11.0" />
