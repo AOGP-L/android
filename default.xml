@@ -30,7 +30,7 @@
   <!-- These projects below would need to be removed if you wish to use our repo as its private and therefore will not 
   sync out custom build scripts -->
   <project path="scripts" name="team-ub/android_scripts" remote="bitbucketP" revision="master" />
-  <project path="packages/apps/OpenDelta" name="team-ub/android_packages_apps_OpenDelta" remote="bitbucketP	" revision="android-4.4" />
+  <project path="packages/apps/OpenDelta" name="team-ub/android_packages_apps_opendelta" remote="bitbucketP" revision="android-4.4" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="art" name="CM-i9300-builds/android_art" remote="github" revision="cm-11.0" />
