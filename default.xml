@@ -347,7 +347,7 @@
   <project path="packages/apps/Browser" name="CM-i9300-builds/android_packages_apps_Browser" remote="github" revision="cm-11.0"  />
   <project path="packages/apps/Calculator" name="temasek/android_packages_apps_Calculator" remote="github" revision="cm-11.0" />
   <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" remote="github" revision="cm-11.0" />
-  <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2/" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/Camera2" name="temasek/android_packages_apps_Camera2/" remote="github" revision="cm-11.0" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" remote="github" revision="cm-11.0" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" remote="github" revision="cm-11.0" />
   <project path="packages/apps/CMAccount" name="CyanogenMod/android_packages_apps_CMAccount" remote="github" revision="cm-11.0" />
