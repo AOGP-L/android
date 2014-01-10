@@ -5,11 +5,11 @@
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
 
-  <remote  name="private"
+  <remote  name="github"
            fetch="https://github.com"
            review="review.cyanogenmod.org" />
 
-  <remote  name="github"
+  <remote  name="private"
            fetch="ssh://git@github.com" />
 
   <remote  name="bitbucketP"
