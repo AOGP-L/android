@@ -288,7 +288,7 @@
   <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" remote="github" revision="cm-11.0" />
   <project path="frameworks/mff" name="CyanogenMod/android_frameworks_mff" remote="github" revision="cm-11.0" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" remote="github" revision="cm-11.0" />
-  <project path="frameworks/native" name="temasek/android_frameworks_native" groups="pdk" remote="github" revision="cm-11.0" />
+  <project path="frameworks/native" name="CM-i9300-builds/android_frameworks_native" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="frameworks/opt/calendar" name="CyanogenMod/android_frameworks_opt_calendar" remote="github" revision="cm-11.0" />
   <project path="frameworks/opt/carddav" name="CyanogenMod/android_frameworks_opt_carddav" remote="github" revision="cm-11.0" />
   <project path="frameworks/opt/colorpicker" name="CyanogenMod/android_frameworks_opt_colorpicker" remote="github" revision="cm-11.0" />
