@@ -353,9 +353,9 @@
   <project path="packages/apps/CMAccount" name="CyanogenMod/android_packages_apps_CMAccount" remote="github" revision="cm-11.0" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-11.0" /> 
   <project path="packages/apps/Contacts" name="temasek/android_packages_apps_Contacts" remote="github" revision="cm-11.0" />
-  <project path="packages/apps/ContactsCommon" name="temasek/android_packages_apps_ContactsCommon" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/ContactsCommon" name="CM-i9300-builds/android_packages_apps_ContactsCommon" remote="github" revision="cm-11.0" />
   <project path="packages/apps/DeskClock" name="temasek/android_packages_apps_DeskClock" remote="github" revision="cm-11.0" />
-  <project path="packages/apps/Dialer" name="temasek/android_packages_apps_Dialer" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/Dialer" name="CM-i9300-builds/android_packages_apps_Dialer" remote="github" revision="cm-11.0" />
   <project path="packages/apps/DSPManager" name="omnirom/android_packages_apps_DSPManager" remote="github" revision="android-4.4" />
   <project path="packages/apps/Email" name="temasek/android_packages_apps_Email" remote="github" revision="cm-11.0" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" remote="github" revision="cm-11.0" />
