@@ -512,4 +512,6 @@
   <project path="vendor/nvidia/wingray" name="CM-i9300-builds/android_vendor_nvidia_wingray" remote="github" revision="android-4.3" />
   <project path="device/moto/wingray" name="CM-i9300-builds/android_device_moto_wingray" remote="github" revision="cm-11.0" />
   <project path="device/moto/stingray-kernel" name="CM-i9300-builds/xoom-ElementalX" remote="github" revision="master" />
+  <project path="device/samsung/captivatemtd" name="CM-i9300-builds/android_device_samsung_captivatemtd" remote="github" revision="cm-11.0" />
+  <project path="kernel/samsung/aries" name="CM-i9300-builds/android_kernel_samsung_aries" remote="github" revision="cm-11.0" />
 </manifest>
