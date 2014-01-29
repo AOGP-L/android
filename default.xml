@@ -505,6 +505,7 @@
   <project path="device/htc/m7-common" name="CyanogenMod/android_device_htc_m7-common" remote="github" revision="cm-11.0" />
   <project path="device/htc/msm8960-common" name="CyanogenMod/android_device_htc_msm8960-common" remote="github" revision="cm-11.0" />
   <project path="kernel/htc/m7" name="CyanogenMod/android_kernel_htc_m7" remote="github" revision="cm-11.0" />
+  <project path="kernel/htc/msm8960" name="CyanogenMod/android_kernel_htc_msm8960" remote="github" revision="cm-11.0" />
   <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="github" revision="cm-11.0" />
   
   <!-- flo/deb -->
