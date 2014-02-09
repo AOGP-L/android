@@ -390,7 +390,7 @@
   <project path="packages/providers/ApplicationsProvider" name="CyanogenMod/android_packages_providers_ApplicationsProvider" remote="github" revision="cm-11.0" />
   <project path="packages/providers/CalendarProvider" name="CyanogenMod/android_packages_providers_CalendarProvider" remote="github" revision="cm-11.0" />
   <project path="packages/providers/ContactsProvider" name="CyanogenMod/android_packages_providers_ContactsProvider" remote="github" revision="cm-11.0" />
-  <project path="packages/providers/DownloadProvider" name="CyanogenMod/android_packages_providers_DownloadProvider" remote="github" revision="cm-11.0" />
+  <project path="packages/providers/DownloadProvider" name="temasek/android_packages_providers_DownloadProvider/" remote="github" revision="cm-11.0" />
   <project path="packages/providers/MediaProvider" name="temasek/android_packages_providers_MediaProvider/" remote="github" revision="cm-11.0" />
   <project path="packages/providers/PartnerBookmarksProvider" name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" remote="github" revision="cm-11.0" />
   <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" remote="github" revision="cm-11.0" />
