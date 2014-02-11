@@ -365,7 +365,7 @@
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" remote="github" revision="cm-11.0" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="github" revision="cm-11.0" />
   <project path="packages/apps/Mms" name="temasek/android_packages_apps_Mms" remote="github" revision="cm-11.0" />
-  <project path="packages/apps/Nfc" name="temasek/android_packages_apps_Nfc" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/Nfc" name="CM-i9300-builds/android_packages_apps_Nfc" remote="github" revision="cm-11.0" />
   <project path="packages/apps/OmniSwitch" name="temasek/android_packages_apps_OmniSwitch/" remote="github" revision="android-4.4" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-4.4.2_r1" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" remote="github" revision="cm-11.0" />
