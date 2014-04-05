@@ -495,7 +495,7 @@
   <project path="device/samsung/smdk4412-common" name="temasek/android_device_samsung_smdk4412-common" remote="github" revision="cm-11.0" />
   <project path="device/samsung/smdk4412-qcom-common" name="CyanogenMod/android_device_samsung_smdk4412-qcom-common" remote="github" revision="cm-11.0" />
   <project path="hardware/samsung" name="temasek/android_hardware_samsung" remote="github" revision="cm-11.0" />
-  <project path="kernel/samsung/smdk4412" name="temasek/android_kernel_samsung_smdk4412" remote="github" revision="cm-11.0" />
+  <project path="kernel/samsung/smdk4412" name="CM-i9300-builds/android_kernel_samsung_smdk4412" remote="github" revision="cm-11.0" />
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-11.0" />
   <project path="vendor/samsung" name="temasek/proprietary_vendor_samsung" remote="github" revision="cm-11.0" />
   
