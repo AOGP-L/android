@@ -465,7 +465,7 @@
   <project path="sdk" name="CyanogenMod/android_sdk"  remote="github" revision="cm-11.0"/>
   <project path="system/core" name="temasek/android_system_core" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" remote="github" revision="cm-11.0" />
-  <project path="system/media" name="CM-i9300-builds/android_system_media" groups="pdk" remote="github" revision="cm-11.0" />
+  <project path="system/media" name="CyanogenMod/android_system_media" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" remote="github" revision="cm-11.0" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" remote="github" revision="cm-11.0" />
