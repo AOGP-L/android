@@ -492,7 +492,7 @@
   <!-- i9300/i9305 -->
   <project path="device/samsung/i9300" name="CM-i9300-builds/android_device_samsung_i9300" remote="github" revision="cm-11.0" />
   <project path="device/samsung/i9305" name="CM-i9300-builds/android_device_samsung_i9305" remote="github" revision="cm-11.0" />
-  <project path="device/samsung/smdk4412-common" name="temasek/android_device_samsung_smdk4412-common" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/smdk4412-common" name="CM-i9300-builds/android_device_samsung_smdk4412-common" remote="github" revision="cm-11.0" />
   <project path="device/samsung/smdk4412-qcom-common" name="CyanogenMod/android_device_samsung_smdk4412-qcom-common" remote="github" revision="cm-11.0" />
   <project path="hardware/samsung" name="temasek/android_hardware_samsung" remote="github" revision="cm-11.0" />
   <project path="kernel/samsung/smdk4412" name="CM-i9300-builds/android_kernel_samsung_smdk4412" remote="github" revision="cm-11.0" />
