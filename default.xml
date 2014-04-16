@@ -189,6 +189,7 @@
   <project path="external/libppp" name="CyanogenMod/android_external_libppp" remote="github" revision="cm-11.0" />
   <project path="external/libselinux" name="CyanogenMod/android_external_libselinux" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="external/libsepol" name="CyanogenMod/android_external_libsepol" groups="pdk" remote="github" revision="cm-11.0" />
+  <project path="external/libtar" name="CyanogenMod/android_external_libtar" />
   <project path="external/libusb" name="CyanogenMod/android_external_libusb" remote="github" revision="cm-11.0" />
   <project path="external/libusbx" name="CyanogenMod/android_external_libusbx" remote="github" revision="cm-11.0" />
   <project path="external/libusb-compat" name="CyanogenMod/android_external_libusb-compat" remote="github" revision="cm-11.0" />
