@@ -100,7 +100,7 @@
   <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="external/chromium_org/third_party/skia/gyp" name="platform/external/chromium_org/third_party/skia/gyp" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="external/chromium_org/third_party/skia/include" name="platform/external/chromium_org/third_party/skia/include" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
-  <project path="external/chromium_org/third_party/skia/src" name="CM-i9300-builds/libskia_src" remote="github" revision="cm-11.0" />
+  <project path="external/chromium_org/third_party/skia/src" name="platform/external/chromium_org/third_party/skia/src" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="external/chromium_org/third_party/smhasher/src" name="platform/external/chromium_org/third_party/smhasher/src" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="external/chromium_org/third_party/yasm/source/patched-yasm" name="platform/external/chromium_org/third_party/yasm/source/patched-yasm" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
   <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" remote="aosp" revision="refs/tags/android-4.4.2_r2" />
