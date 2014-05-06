@@ -384,7 +384,7 @@
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" remote="github" revision="cm-11.0" />
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" remote="github" revision="cm-11.0" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" remote="github" revision="cm-11.0" />
-  <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/ThemeChooser" name="CM-i9300-builds/android_packages_apps_ThemeChooser" remote="github" revision="cm-11.0" />
   <project path="packages/apps/TUBwallpapers" name="team-ub/android_packages_apps_TUBwallpapers" remote="bitbucketP" revision="cm-11.0" />
   <project path="packages/apps/Torch" name="temasek/android_packages_apps_Torch" remote="github" revision="cm-11.0" />
   <project path="packages/apps/Trebuchet" name="CM-i9300-builds/android_packages_apps_Trebuchet" remote="github" revision="cm-11.0" />
@@ -403,7 +403,7 @@
   <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" remote="github" revision="cm-11.0" />
   <project path="packages/providers/UserDictionaryProvider" name="CyanogenMod/android_packages_providers_UserDictionaryProvider" remote="github" revision="cm-11.0" />
   <project path="packages/screensavers/Basic" name="CyanogenMod/android_packages_screensavers_Basic" remote="github" revision="cm-11.0" />
-  <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" remote="github" revision="cm-11.0" />
+  <project path="packages/providers/ThemesProvider" name="CM-i9300-builds/android_packages_providers_ThemesProvider" remote="github" revision="cm-11.0" />
   <project path="packages/screensavers/PhotoTable" name="CyanogenMod/android_packages_screensavers_PhotoTable" remote="github" revision="cm-11.0" />
   <project path="packages/screensavers/WebView" name="CyanogenMod/android_packages_screensavers_WebView" remote="github" revision="cm-11.0" />
   <project path="packages/services/Telephony" name="temasek/android_packages_services_Telephony" remote="github" revision="cm-11.0" />
