@@ -359,7 +359,7 @@
   <project path="packages/apps/Camera2" name="temasek/android_packages_apps_Camera2/" remote="github" revision="cm-11.0" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" remote="github" revision="cm-11.0" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" remote="github" revision="cm-11.0" />
-  <project path="packages/apps/CMAccount" name="CyanogenMod/android_packages_apps_CMAccount" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/CMAccount" name="CM-i9300-builds/android_packages_apps_CMAccount" remote="github" revision="cm-11.0" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-11.0" /> 
   <project path="packages/apps/Contacts" name="temasek/android_packages_apps_Contacts" remote="github" revision="cm-11.0" />
   <project path="packages/apps/ContactsCommon" name="temasek/android_packages_apps_ContactsCommon" remote="github" revision="cm-11.0" />
