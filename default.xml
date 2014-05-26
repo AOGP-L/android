@@ -520,7 +520,7 @@
   <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="github" revision="cm-11.0" />
   
   <!-- m8 -->
-  <project path="device/htc/m7" name="CM-i9300-builds/android_device_htc_m8" remote="github" revision="cm-11.0" />
+  <project path="device/htc/m8" name="CM-i9300-builds/android_device_htc_m8" remote="github" revision="cm-11.0" />
   <project path="kernel/htc/msm8974" name="CyanogenMod/android_kernel_htc_msm8974" remote="github" revision="cm-11.0" />
   
   <!-- flo/deb -->
