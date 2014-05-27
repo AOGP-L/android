@@ -538,7 +538,7 @@
   <project path="vendor/nvidia/wingray" name="CM-i9300-builds/android_vendor_nvidia_wingray" remote="github" revision="android-4.3" />
   
   <!-- captivate --> 
-  <project path="device/samsung/aries-common" name="CyanogenMod/android_device_samsung_aries-common" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/aries-common" name="CM-i9300-builds/android_device_samsung_aries-common" remote="github" revision="cm-11.0" />
   <project path="device/samsung/captivatemtd" name="CM-i9300-builds/android_device_samsung_captivatemtd" remote="github" revision="cm-11.0" />
   <project path="kernel/samsung/aries" name="CyanogenMod/android_kernel_samsung_aries" remote="github" revision="cm-11.0" />
   
