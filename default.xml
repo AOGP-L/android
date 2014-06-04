@@ -555,6 +555,7 @@
    
    <!-- klte -->
    <project path="device/samsung/klte" name="CM-i9300-builds/android_device_samsung_klte" remote="github" revision="cm-11.0" />
+   <project path="device/samsung/klte-common" name="CM-i9300-builds/android_device_samsung_klte-common" remote="github" revision="cm-11.0" />
    <project path="device/samsung/msm8960-common" name="CyanogenMod/android_device_samsung_msm8960-common" remote="github" revision="cm-11.0" />
    <project path="device/samsung/msm8974-common" name="CyanogenMod/android_device_samsung_msm8974-common" remote="github" revision="cm-11.0" />
    <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-11.0" />
