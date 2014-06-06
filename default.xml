@@ -528,11 +528,14 @@
   <project path="device/htc/m8" name="CM-i9300-builds/android_device_htc_m8" remote="github" revision="cm-11.0" />
   <project path="kernel/htc/msm8974" name="CyanogenMod/android_kernel_htc_msm8974" remote="github" revision="cm-11.0" />
   
-  <!-- flo/deb -->
+  <!-- flo/deb/mako -->
   <project path="device/asus/deb" name="CM-i9300-builds/android_device_asus_deb" remote="github" revision="cm-11.0" />
   <project path="device/asus/flo" name="CM-i9300-builds/android_device_asus_flo" remote="github" revision="cm-11.0" />
+  <project path="device/lge/mako" name="CM-i9300-builds/android_device_lge_mako" remote="github" revision="cm-11.0" />
   <project path="kernel/google/msm" name="CyanogenMod/android_kernel_google_msm" remote="github" revision="cm-11.0" />
   <project path="vendor/asus" name="TheMuppets/proprietary_vendor_asus" remote="github" revision="cm-11.0" />
+  <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-11.0" />
+
  
   <!-- wingray -->
   <project path="device/generic/armv7-a" name="CyanogenMod/android_device_generic_armv7-a" groups="pdk" remote="github" revision="cm-10.1"/>
