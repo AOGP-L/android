@@ -373,7 +373,7 @@
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" remote="github" revision="cm-11.0" />
   <project path="packages/apps/Gallery2" name="temasek/android_packages_apps_Gallery2" remote="github" revision="cm-11.0" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" remote="github" revision="cm-11.0" />
-  <project path="packages/apps/InCallUI" name="temasek/android_packages_apps_InCallUI" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/InCallUI" name="CM-i9300-builds/android_packages_apps_InCallUI" remote="github" revision="cm-11.0" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" remote="github" revision="cm-11.0" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="github" revision="cm-11.0" />
   <project path="packages/apps/Mms" name="CM-i9300-builds/android_packages_apps_Mms" remote="github" revision="cm-11.0" />
