@@ -509,7 +509,7 @@
   <project path="hardware/samsung" name="temasek/android_hardware_samsung" remote="github" revision="cm-11.0" />
   <project path="kernel/samsung/smdk4412" name="CM-i9300-builds/android_kernel_samsung_smdk4412" remote="github" revision="cm-11.0" />
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-11.0" />
-  <project path="vendor/samsung" name="temasek/proprietary_vendor_samsung" remote="github" revision="cm-11.0" />
+  <project path="vendor/samsung" name="VanirAOSP/vendor_samsung" remote="github" revision="cm-11.0" />
   
   <!-- manta -->
   <project path="device/samsung/manta" name="CM-i9300-builds/android_device_samsung_manta" remote="github" revision="cm-11.0" />
@@ -564,12 +564,11 @@
    <project path="hardware/qcom/display-caf-new" name="CyanogenMod/android_hardware_qcom_display-caf-new" remote="github" revision="cm-11.0" />
    
    <!-- klte -->
-   <project path="device/samsung/klte" name="CM-i9300-builds/android_device_samsung_klte" remote="github" revision="cm-11.0" />
+   <project path="device/samsung/klte" name="VanirAOSP/device_samsung_klte" remote="github" revision="cm-11.0" />
    <project path="device/samsung/msm8960-common" name="CyanogenMod/android_device_samsung_msm8960-common" remote="github" revision="cm-11.0" />
    <project path="device/samsung/msm8974-common" name="CyanogenMod/android_device_samsung_msm8974-common" remote="github" revision="cm-11.0" />
    <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-11.0" />
-   <project path="vendor/samsung/klte" name="CM-i9300-builds/proprietary_vendor_samsung_klte" remote="github" revision="cm-11.0" />
-   <project path="kernel/samsung/klte" name="CM-i9300-builds/android_kernel_samsung_klte" remote="github" revision="cm-11.0" />
+   <project path="kernel/samsung/klte" name="VanirAOSP/kernel_samsung_klte" remote="github" revision="cm-11.0" />
    
    <!-- hammerhead --> 
   <project path="device/lge/hammerhead" name="CM-i9300-builds/android_device_lge_hammerhead" remote="github" revision="cm-11.0" />
