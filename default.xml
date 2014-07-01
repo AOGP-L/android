@@ -559,7 +559,7 @@
    <project path="device/motorola/falcon" name="CM-i9300-builds/android_device_motorola_falcon" remote="github" revision="cm-11.0" />
    <project path="device/motorola/qcom-common" name="CyanogenMod/android_device_motorola_qcom-common" remote="github" revision="cm-11.0" />
    <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-11.0" />
-   <project path="hardware/qcom/media-caf-new" name="CM-i9300-builds/android_hardware_qcom_media-caf-new" remote="github" revision="cm-11.0" />
+   <project path="hardware/qcom/media-caf-new" name="CyanogenMod/android_hardware_qcom_media-caf-new" remote="github" revision="cm-11.0" />
    <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" remote="github" revision="cm-11.0" />
    <project path="hardware/qcom/display-caf-new" name="CyanogenMod/android_hardware_qcom_display-caf-new" remote="github" revision="cm-11.0" />
    
