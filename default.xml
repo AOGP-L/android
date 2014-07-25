@@ -584,4 +584,9 @@
   <project path="device/samsung/jflte" name="CM-i9300-builds/android_device_samsung_jflte" remote="github" revision="cm-11.0" />
   <project path="kernel/samsung/jf" name="CyanogenMod/android_kernel_samsung_jf" remote="github" revision="cm-11.0" />
   
+  <!--OPO bacon -->
+  <project path="device/oneplus/bacon" name="CM-i9300-builds/android_device_oneplus_bacon" remote="github" revision="cm-11.0" />
+  <project path="kernel/oneplus/msm8974" name="CyanogenMod/android_kernel_oneplus_msm8974" remote="github" revision="cm-11.0" />
+  <project path="device/oppo/msm8974-common" name="CyanogenMod/android_device_oppo_msm8974-common" remote="github" revision="cm-11.0"
+  
 </manifest>
