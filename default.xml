@@ -39,6 +39,7 @@
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" remote="github" revision="cm-11.0" />
   <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="github" revision="cm-11.0" />
   <project path="bootable/recovery-cm" name="CyanogenMod/android_bootable_recovery-cm" remote="github" revision="cm-11.0" />
+  <project path="bootable/recovery-twrp" name="VanirAOSP/bootable_recovery_TWRP" remote="github" revision="kk44" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.4.4_r2" groups="cts" />
   <project path="dalvik" name="CyanogenMod/android_dalvik" remote="github" revision="cm-11.0" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
