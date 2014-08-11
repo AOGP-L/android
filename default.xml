@@ -33,7 +33,7 @@
   <project path="packages/apps/OpenDelta" name="team-ub/android_packages_apps_opendelta" remote="bitbucketP" revision="cm11" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" remote="github" revision="cm-11.0" />
-  <project path="art" name="CM-i9300-builds/android_art" remote="github" revision="cm-11.0" />
+  <project path="art" name="CyanogenMod/android_art" remote="github" revision="cm-11.0" />
   <project name="CyanogenMod/android_frameworks_opt_telephony-msim" path="frameworks/opt/telephony-msim" remote="github" revision="cm-11.0" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="bootable/diskinstaller" name="CyanogenMod/android_bootable_diskinstaller" remote="github" revision="cm-11.0" />
