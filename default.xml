@@ -422,7 +422,7 @@
   <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" remote="github" revision="cm-11.0" />
   <project path="packages/screensavers/PhotoTable" name="CyanogenMod/android_packages_screensavers_PhotoTable" remote="github" revision="cm-11.0" />
   <project path="packages/screensavers/WebView" name="CyanogenMod/android_packages_screensavers_WebView" remote="github" revision="cm-11.0" />
-  <project path="packages/services/Telephony" name="CM-i9300-builds/android_packages_services_Telephony" remote="github" revision="cm-11.0" />
+  <project path="packages/services/Telephony" name="temasek/android_packages_services_Telephony" remote="github" revision="cm-11.0" />
   <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" remote="github" revision="cm-11.0" />
   <project path="packages/wallpapers/Galaxy4" name="CyanogenMod/android_packages_wallpapers_Galaxy4" remote="github" revision="cm-11.0" />
   <project path="packages/wallpapers/HoloSpiral" name="CyanogenMod/android_packages_wallpapers_HoloSpiral" remote="github" revision="cm-11.0" />
