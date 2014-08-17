@@ -181,7 +181,7 @@
   <project path="external/kissfft" name="CyanogenMod/android_external_kissfft" remote="github" revision="cm-11.0" />
   <project path="external/koush/ion" name="CyanogenMod/ion" remote="github" revision="cm-11.0" />
   <project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" remote="github" revision="cm-11.0" />
-  <project path="external/koush/Superuser" name="CyanogenMod/Superuser" remote="github" revision="cm-11.0" />
+  <project path="external/koush/Superuser" name="CM-i9300-builds/Superuser" remote="github" revision="cm-11.0" />
   <project path="external/koush/Widgets" name="CyanogenMod/Widgets" remote="github" revision="cm-11.0" />
   <project path="external/libcap-ng" name="CyanogenMod/android_external_libcap-ng" remote="github" revision="cm-11.0" />
   <project path="external/libexif" name="platform/external/libexif" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
