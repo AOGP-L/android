@@ -517,7 +517,7 @@
   <project path="hardware/samsung" name="temasek/android_hardware_samsung" remote="github" revision="cm-11.0" />
   <project path="kernel/samsung/smdk4412" name="CM-i9300-builds/android_kernel_samsung_smdk4412" remote="github" revision="cm-11.0" />
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-11.0" />
-  <project path="vendor/samsung" name="CM-i9300-builds/proprietary_vendor_samsung" remote="github" revision="cm-11.0" />
+  <project path="vendor/samsung" name="elelinux/android_vendor_samsung" remote="github" revision="cm-11.0" />
   
   <!-- manta -->
   <project path="device/samsung/manta" name="CyanogenMod/android_device_samsung_manta" remote="github" revision="cm-11.0" />
@@ -545,7 +545,6 @@
   <project path="kernel/google/msm" name="CyanogenMod/android_kernel_google_msm" remote="github" revision="cm-11.0" />
   <project path="vendor/asus" name="TheMuppets/proprietary_vendor_asus" remote="github" revision="cm-11.0" />
   <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-11.0" />
-
  
   <!-- wingray -->
   <project path="device/generic/armv7-a" name="CyanogenMod/android_device_generic_armv7-a" groups="pdk" remote="github" revision="cm-10.1"/>
@@ -571,10 +570,10 @@
    <project path="hardware/qcom/display-caf-new" name="CyanogenMod/android_hardware_qcom_display-caf-new" remote="github" revision="cm-11.0" />
    
    <!-- klte -->
-   <project path="device/samsung/klte" name="CM-i9300-builds/android_device_samsung_klte" remote="github" revision="cm-11.0" />
-   <project path="device/samsung/msm8974-common" name="VanirAOSP/android_device_samsung_msm8974-common" remote="github" revision="kk44" />
-   <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-11.0" />
-   <project path="kernel/samsung/klte" name="CM-i9300-builds/kernel_samsung_klte" remote="github" revision="kk44" />
+   <project path="device/samsung/klte" name="elelinux/android_device_samsung_klte" remote="github" revision="cm-11.0" />
+   <project path="device/samsung/msm8974-common" name="VanirAOSP/device_samsung_msm8974-common" remote="github" revision="kk44" />
+   <project path="device/samsung/qcom-common" name="VanirAOSP/device_samsung_qcom-common" remote="github" revision="cm-11.0" />
+   <project path="kernel/samsung/klte" name="elelinux/android_kernel_samsung_klte" remote="github" revision="cm-11.0" />
    
    <!-- hammerhead --> 
   <project path="device/lge/hammerhead" name="CyanogenMod/android_device_lge_hammerhead" remote="github" revision="cm-11.0" />
