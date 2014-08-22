@@ -573,7 +573,7 @@
    <project path="device/samsung/klte" name="CM-i9300-builds/android_device_samsung_klte" remote="github" revision="cm-11.0" />
    <project path="device/samsung/msm8974-common" name="VanirAOSP/device_samsung_msm8974-common" remote="github" revision="kk44" />
    <project path="device/samsung/qcom-common" name="VanirAOSP/device_samsung_qcom-common" remote="github" revision="kk44" />
-   <project path="kernel/samsung/klte" name="elelinux/android_kernel_samsung_klte" remote="github" revision="cm-11.0" />
+   <project path="kernel/samsung/klte" name="CM-i9300-builds/kernel_samsung_klte" remote="github" revision="kk44" />
    
    <!-- hammerhead --> 
   <project path="device/lge/hammerhead" name="CyanogenMod/android_device_lge_hammerhead" remote="github" revision="cm-11.0" />
