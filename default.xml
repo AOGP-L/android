@@ -273,7 +273,7 @@
   <project path="external/spongycastle" name="CyanogenMod/android_external_spongycastle" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="external/square/dagger" name="CyanogenMod/android_external_square_dagger" remote="github" revision="cm-11.0" />
   <project path="external/square/javawriter" name="CyanogenMod/android_external_square_javawriter" remote="github" revision="cm-11.0" />
-  <project path="external/sqlite" name="CyanogenMod/android_external_sqlite" groups="pdk" remote="github" revision="cm-11.0" />
+  <project path="external/sqlite" name="temasek/android_external_sqlite" remote="github" revision="cm-11.0" />
   <project path="external/srec" name="CyanogenMod/android_external_srec" remote="github" revision="cm-11.0" />
   <project path="external/srtp" name="CyanogenMod/android_external_srtp" remote="github" revision="cm-11.0" />
   <project path="external/stlport" name="CyanogenMod/android_external_stlport" groups="pdk" remote="github" revision="cm-11.0" />
