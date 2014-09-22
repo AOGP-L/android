@@ -598,6 +598,7 @@
    <project path="device/samsung/serranoltexx" name="CyanogenMod/android_device_samsung_serranoltexx" remote="github" revision="cm-11.0" />
    <project path="device/samsung/serrano-common" name="CyanogenMod/android_device_samsung_serrano-common" remote="github" revision="cm-11.0" />
    <project path="device/samsung/msm8930-common" name="CyanogenMod/android_device_samsung_msm8930-common" remote="github" revision="cm-11.0" />
+   <project path="kernel/samsung/msm8930-common" name="CyanogenMod/android_kernel_samsung_msm8930-common" remote="github" revision="cm-11.0" />
   
    <!--emulator -->
   <project path="device/generic/emulatorx86" name="CyanogenMod/android_device_generic_emulatorx86" remote="github" revision="cm-11.0" />
