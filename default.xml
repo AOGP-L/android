@@ -571,7 +571,7 @@
    <project path="hardware/qcom/display-caf-new" name="CyanogenMod/android_hardware_qcom_display-caf-new" remote="github" revision="cm-11.0" />
    
    <!-- klte -->
-   <project path="device/samsung/klte" name="CM-i9300-builds/android_device_samsung_klte" remote="github" revision="cm-11.0" />
+   <project path="device/samsung/klte" name="Team-Hydra/android_device_samsung_klte" remote="github" revision="cm-11.0" />
    <project path="device/samsung/kltevzw" name="CyanogenMod/android_device_samsung_kltevzw" remote="github" revision="cm-11.0" />
    <project path="device/samsung/kltespr" name="CyanogenMod/android_device_samsung_kltespr" remote="github" revision="cm-11.0" />
    <project path="device/samsung/klte-common" name="CM-i9300-builds/android_device_samsung_klte-common" remote="github" revision="cm-11.0" />
