@@ -27,11 +27,12 @@
 
   <project path="android" name="CM-i9300-builds/android" remote="github" revision="cm-11.0" />
   
-  <!-- These projects below would need to be removed if you wish to use our repo's as they are private and therefore will not 
-  sync -->
+  <!-- Remove these if you wish to use our repo's as they are private and will not sync -->
+  
   <project path="scripts" name="team-ub/android_scripts" remote="bitbucketP" revision="master" />
   <project path="packages/apps/OpenDelta" name="team-ub/android_packages_apps_opendelta" remote="bitbucketP" revision="cm11" />
 
+  <!-- misc -->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="art" name="temasek/android_art" remote="github" revision="cm-11.0" />
   <project path="frameworks/opt/telephony-msim" name="CyanogenMod/android_frameworks_opt_telephony-msim" remote="github" revision="cm-11.0" />
@@ -60,6 +61,20 @@
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" groups="device" remote="github" revision="cm-11.0" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" remote="github" revision="cm-11.0" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="libcore" name="CyanogenMod/android_libcore" remote="github" revision="cm-11.0" />
+  <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" remote="github" revision="cm-11.0" />
+  <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="sdk" name="CyanogenMod/android_sdk"  remote="github" revision="cm-11.0"/>
+  <project path="system/core" name="temasek/android_system_core" groups="pdk" remote="github" revision="cm-11.0" />
+  <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" remote="github" revision="cm-11.0" />
+  <project path="system/media" name="temasek/android_system_media" groups="pdk" remote="github" revision="cm-11.0" />
+  <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" remote="github" revision="cm-11.0" />
+  <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" remote="github" revision="cm-11.0" />
+  <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" remote="github" revision="cm-11.0" />
+  <project path="system/vold" name="temasek/android_system_vold" groups="pdk" remote="github" revision="cm-11.0" />
+  <project path="pdk" name="platform/pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" groups="pdk" />
+  
+  <!-- external -->  
   <project path="external/aac" name="CyanogenMod/android_external_aac" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="external/android-clat" name="CyanogenMod/android_external_android-clat" remote="github" revision="cm-11.0" />
   <project path="external/android-mock" name="CyanogenMod/android_external_android-mock" remote="github" revision="cm-11.0" />
@@ -86,34 +101,6 @@
   <project path="external/cardslib" name="CyanogenMod/android_external_cardslib" remote="github" revision="cm-11.0" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="external/checkpolicy" name="CyanogenMod/android_external_checkpolicy" groups="pdk" remote="github" revision="cm-11.0" />
-  <project path="external/chromium" name="CyanogenMod/android_external_chromium" remote="github" revision="cm-11.0" />
-  <project path="external/chromium-libpac" name="platform/external/chromium-libpac" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="external/chromium-trace" name="CyanogenMod/android_external_chromium-trace" groups="pdk" remote="github" revision="cm-11.0" />
-  <project path="external/chromium_org" name="CyanogenMod/android_external_chromium_org" remote="github" revision="cm-11.0" />
-  <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="external/chromium_org/third_party/freetype" name="platform/external/chromium_org/third_party/freetype" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="external/chromium_org/third_party/icu" name="platform/external/chromium_org/third_party/icu" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="external/chromium_org/third_party/leveldatabase/src" name="platform/external/chromium_org/third_party/leveldatabase/src" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="external/chromium_org/third_party/libjingle/source/talk" name="platform/external/chromium_org/third_party/libjingle/source/talk" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="external/chromium_org/third_party/libphonenumber/src/phonenumbers" name="platform/external/chromium_org/third_party/libphonenumber/src/phonenumbers" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="external/chromium_org/third_party/libphonenumber/src/resources" name="platform/external/chromium_org/third_party/libphonenumber/src/resources" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="external/chromium_org/third_party/openssl" name="CyanogenMod/android_external_chromium_org_third_party_openssl" remote="github" revision="cm-11.0" />
-  <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="external/chromium_org/third_party/sfntly/cpp/src" name="platform/external/chromium_org/third_party/sfntly/cpp/src" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="external/chromium_org/third_party/skia/gyp" name="platform/external/chromium_org/third_party/skia/gyp" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="external/chromium_org/third_party/skia/include" name="platform/external/chromium_org/third_party/skia/include" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="external/chromium_org/third_party/skia/src" name="platform/external/chromium_org/third_party/skia/src" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="external/chromium_org/third_party/smhasher/src" name="platform/external/chromium_org/third_party/smhasher/src" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="external/chromium_org/third_party/yasm/source/patched-yasm" name="platform/external/chromium_org/third_party/yasm/source/patched-yasm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="external/clang" name="CyanogenMod/android_external_clang" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="external/compiler-rt" name="CyanogenMod/android_external_compiler-rt" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="github" revision="cm-11.0" />
@@ -301,6 +288,38 @@
   <project path="external/yaffs2" name="CyanogenMod/android_external_yaffs2" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" remote="github" revision="cm-11.0" />
+ 
+  <!-- chromium --> 
+  <project path="external/chromium" name="CyanogenMod/android_external_chromium" remote="github" revision="cm-11.0" />
+  <project path="external/chromium-libpac" name="platform/external/chromium-libpac" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="external/chromium-trace" name="CyanogenMod/android_external_chromium-trace" groups="pdk" remote="github" revision="cm-11.0" />
+  <project path="external/chromium_org" name="CyanogenMod/android_external_chromium_org" remote="github" revision="cm-11.0" />
+  <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="external/chromium_org/third_party/freetype" name="platform/external/chromium_org/third_party/freetype" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="external/chromium_org/third_party/icu" name="platform/external/chromium_org/third_party/icu" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="external/chromium_org/third_party/leveldatabase/src" name="platform/external/chromium_org/third_party/leveldatabase/src" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="external/chromium_org/third_party/libjingle/source/talk" name="platform/external/chromium_org/third_party/libjingle/source/talk" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="external/chromium_org/third_party/libphonenumber/src/phonenumbers" name="platform/external/chromium_org/third_party/libphonenumber/src/phonenumbers" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="external/chromium_org/third_party/libphonenumber/src/resources" name="platform/external/chromium_org/third_party/libphonenumber/src/resources" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="external/chromium_org/third_party/openssl" name="CyanogenMod/android_external_chromium_org_third_party_openssl" remote="github" revision="cm-11.0" />
+  <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="external/chromium_org/third_party/sfntly/cpp/src" name="platform/external/chromium_org/third_party/sfntly/cpp/src" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="external/chromium_org/third_party/skia/gyp" name="platform/external/chromium_org/third_party/skia/gyp" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="external/chromium_org/third_party/skia/include" name="platform/external/chromium_org/third_party/skia/include" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="external/chromium_org/third_party/skia/src" name="platform/external/chromium_org/third_party/skia/src" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="external/chromium_org/third_party/smhasher/src" name="platform/external/chromium_org/third_party/smhasher/src" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="external/chromium_org/third_party/yasm/source/patched-yasm" name="platform/external/chromium_org/third_party/yasm/source/patched-yasm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+
+  <!-- frameworks -->  
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="github" revision="cm-11.0" />
   <project path="frameworks/base" name="CM-i9300-builds/android_frameworks_base" remote="github" revision="cm-11.0" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" remote="github" revision="cm-11.0" />
@@ -332,6 +351,8 @@
   <project path="frameworks/volley" name="CyanogenMod/android_frameworks_volley" remote="github" revision="cm-11.0" />
   <project path="frameworks/webview" name="CM-i9300-builds/android_frameworks_webview" remote="github" revision="cm-11.0" />
   <project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" remote="github" revision="cm-11.0" />
+  
+  <!-- hardware -->
   <project path="hardware/akm" name="CyanogenMod/android_hardware_akm" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="broadcom_wlan" remote="github" revision="cm-11.0" />
@@ -360,9 +381,8 @@
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" remote="github" revision="cm-11.0" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" remote="github" revision="cm-11.0" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" remote="github" revision="cm-11.0" />
-  <project path="libcore" name="CyanogenMod/android_libcore" remote="github" revision="cm-11.0" />
-  <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" remote="github" revision="cm-11.0" />
-  <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+ 
+  <!-- packages apps-->
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" remote="github" revision="cm-11.0" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" remote="github" revision="cm-11.0" />
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="github" revision="cm-11.0" />
@@ -407,6 +427,8 @@
   <project path="packages/apps/UnifiedEmail" name="temasek/android_packages_apps_UnifiedEmail/" remote="github" revision="cm-11.0" />
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" remote="github" revision="cm-11.0" />
   <project path="packages/apps/VoicePlus" name="CyanogenMod/android_packages_apps_VoicePlus" remote="github" revision="cm-11.0" />
+  
+  <!-- packages other-->
   <project path="packages/experimental" name="CyanogenMod/android_packages_experimental" remote="github" revision="cm-11.0" />
   <project path="packages/inputmethods/LatinIME" name="temasek/android_packages_inputmethods_LatinIME" remote="github" revision="cm-11.0" />
   <project path="packages/inputmethods/OpenWnn" name="CyanogenMod/android_packages_inputmethods_OpenWnn" remote="github" revision="cm-11.0" />
@@ -432,7 +454,8 @@
   <project path="packages/wallpapers/NoiseField" name="CyanogenMod/android_packages_wallpapers_NoiseField" remote="github" revision="cm-11.0" />
   <project path="packages/wallpapers/PhaseBeam" name="CyanogenMod/android_packages_wallpapers_PhaseBeam" remote="github" revision="cm-11.0" />
   <project path="packages/wallpapers/PhotoPhase" name="CyanogenMod/android_packages_wallpapers_PhotoPhase" remote="github" revision="cm-11.0" />
-  <project path="pdk" name="platform/pdk" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" groups="pdk" />
+ 
+  <!-- prebuilts -->
   <project path="prebuilt" name="CyanogenMod/android_prebuilt" remote="github" revision="cm-11.0" />
   <project path="prebuilts/clang/darwin-x86/3.1" name="platform/prebuilts/clang/darwin-x86/3.1" groups="darwin" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="prebuilts/clang/darwin-x86/3.2" name="platform/prebuilts/clang/darwin-x86/3.2" groups="darwin" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
@@ -459,16 +482,6 @@
   <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.7" groups="pdk,darwin,mips" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.6" groups="darwin,x86" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" name="platform/prebuilts/gcc/darwin-x86/x86/i686-linux-android-4.7" groups="pdk,darwin,x86" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="temasek/Toolchain" remote="github" revision="linaro-4.8-arm-eabi" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="temasek/Toolchain" remote="github" revision="linaro-4.8-arm-linux-androideabi" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="temasek/Toolchain" remote="github" revision="linaro-4.9-arm-eabi" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="temasek/Toolchain" remote="github" revision="linaro-4.9-arm-linux-androideabi" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10" name="Cl3Kener/sm-arm-eabi-4.10" remote="bitbucketP" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.10" name="Cl3Kener/sm-arm-androideabi-4.10" remote=bitbucketP" revision="master" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.4.3" groups="linux" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" groups="linux" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" groups="linux" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
@@ -487,14 +500,20 @@
   <project path="prebuilts/runtime" name="platform/prebuilts/runtime" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" groups="pdk" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" groups="pdk,tools" />
-  <project path="sdk" name="CyanogenMod/android_sdk"  remote="github" revision="cm-11.0"/>
-  <project path="system/core" name="temasek/android_system_core" groups="pdk" remote="github" revision="cm-11.0" />
-  <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" remote="github" revision="cm-11.0" />
-  <project path="system/media" name="temasek/android_system_media" groups="pdk" remote="github" revision="cm-11.0" />
-  <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" remote="github" revision="cm-11.0" />
-  <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" remote="github" revision="cm-11.0" />
-  <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" remote="github" revision="cm-11.0" />
-  <project path="system/vold" name="temasek/android_system_vold" groups="pdk" remote="github" revision="cm-11.0" />
+  
+  <!-- toolchain -->
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="temasek/Toolchain" remote="github" revision="linaro-4.8-arm-eabi" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="temasek/Toolchain" remote="github" revision="linaro-4.8-arm-linux-androideabi" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="temasek/Toolchain" remote="github" revision="linaro-4.9-arm-eabi" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="temasek/Toolchain" remote="github" revision="linaro-4.9-arm-linux-androideabi" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10" name="Cl3Kener/sm-arm-eabi-4.10" remote="bitbucketP" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.10" name="Cl3Kener/sm-arm-androideabi-4.10" remote=bitbucketP" revision="master" /> 
+  
+  <!-- tools -->
   <project path="tools/adt/eclipse" name="platform/tools/adt/eclipse" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="tools/adt/idea" name="platform/tools/adt/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="tools/base" name="platform/tools/base" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
@@ -505,10 +524,12 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  
+  <!-- vendor -->
   <project path="vendor/cm" name="CM-i9300-builds/android_vendor_cm" remote="github" revision="cm-11.0" />
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" remote="github" revision="cm-11.0" />
   
-  <!-- These projects are the Local Manifest Device -->
+  <!-- devices -->
   
   <!-- i9300/i9305 -->
   <project path="device/samsung/i9300" name="CM-i9300-builds/android_device_samsung_i9300" remote="github" revision="cm-11.0" />
@@ -561,34 +582,34 @@
   <project path="kernel/samsung/aries" name="CyanogenMod/android_kernel_samsung_aries" remote="github" revision="cm-11.0" />
   
   <!-- falcon --> 
-   <project path="kernel/motorola/msm8226" name="CyanogenMod/android_kernel_motorola_msm8226" remote="github" revision="cm-11.0" />
-   <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-11.0" />
-   <project path="device/motorola/msm8226-common" name="CyanogenMod/android_device_motorola_msm8226-common" remote="github" revision="cm-11.0" />
-   <project path="device/motorola/falcon" name="CyanogenMod/android_device_motorola_falcon" remote="github" revision="cm-11.0" />
-   <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-11.0" />
-   <project path="hardware/qcom/media-caf-new" name="CyanogenMod/android_hardware_qcom_media-caf-new" remote="github" revision="cm-11.0" />
-   <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" remote="github" revision="cm-11.0" />
-   <project path="hardware/qcom/display-caf-new" name="CyanogenMod/android_hardware_qcom_display-caf-new" remote="github" revision="cm-11.0" />
+  <project path="kernel/motorola/msm8226" name="CyanogenMod/android_kernel_motorola_msm8226" remote="github" revision="cm-11.0" />
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-11.0" />
+  <project path="device/motorola/msm8226-common" name="CyanogenMod/android_device_motorola_msm8226-common" remote="github" revision="cm-11.0" />
+  <project path="device/motorola/falcon" name="CyanogenMod/android_device_motorola_falcon" remote="github" revision="cm-11.0" />
+  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/media-caf-new" name="CyanogenMod/android_hardware_qcom_media-caf-new" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/display-caf-new" name="CyanogenMod/android_hardware_qcom_display-caf-new" remote="github" revision="cm-11.0" />
    
-   <!-- klte -->
-   <project path="device/samsung/klte" name="CM-i9300-builds/android_device_samsung_klte" remote="github" revision="cm-11.0" />
-   <project path="device/samsung/kltevzw" name="CyanogenMod/android_device_samsung_kltevzw" remote="github" revision="cm-11.0" />
-   <project path="device/samsung/kltespr" name="CyanogenMod/android_device_samsung_kltespr" remote="github" revision="cm-11.0" />
-   <project path="device/samsung/klte-common" name="CM-i9300-builds/android_device_samsung_klte-common" remote="github" revision="cm-11.0" />
-   <project path="device/samsung/msm8974-common" name="CyanogenMod/android_device_samsung_msm8974-common" remote="github" revision="cm-11.0" />
-   <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-11.0" />
-   <project path="kernel/samsung/klte" name="CM-i9300-builds/android_kernel_samsung_klte" remote="github" revision="cm-11.0" />
+  <!-- klte -->
+  <project path="device/samsung/klte" name="CM-i9300-builds/android_device_samsung_klte" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/kltevzw" name="CyanogenMod/android_device_samsung_kltevzw" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/kltespr" name="CyanogenMod/android_device_samsung_kltespr" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/klte-common" name="CM-i9300-builds/android_device_samsung_klte-common" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/msm8974-common" name="CyanogenMod/android_device_samsung_msm8974-common" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-11.0" />
+  <project path="kernel/samsung/klte" name="CM-i9300-builds/android_kernel_samsung_klte" remote="github" revision="cm-11.0" />
    
-   <!-- hammerhead --> 
+  <!-- hammerhead --> 
   <project path="device/lge/hammerhead" name="CyanogenMod/android_device_lge_hammerhead" remote="github" revision="cm-11.0" />
   <project path="kernel/lge/hammerhead" name="CyanogenMod/android_kernel_lge_hammerhead" remote="github" revision="cm-11.0" />
   
-   <!-- jflte -->
+  <!-- jflte -->
   <project path="device/samsung/jflte" name="CyanogenMod/android_device_samsung_jflte" remote="github" revision="cm-11.0" />
   <project path="device/samsung/jf-common" name="CyanogenMod/android_device_samsung_jf-common" remote="github" revision="cm-11.0" />
   <project path="kernel/samsung/jf" name="CyanogenMod/android_kernel_samsung_jf" remote="github" revision="cm-11.0" />
-  
-  <!--OPO bacon -->
+ 
+  <!-- OPO bacon -->
   <project path="device/oneplus/bacon" name="CyanogenMod/android_device_oneplus_bacon" remote="github" revision="cm-11.0" />
   <project path="device/oppo/common" name="CyanogenMod/android_device_oppo_common" remote="github" revision="cm-11.0" />
   <project path="kernel/oneplus/msm8974" name="CyanogenMod/android_kernel_oneplus_msm8974" remote="github" revision="cm-11.0" />
@@ -596,13 +617,13 @@
   <project path="vendor/oneplus" name="TheMuppets/proprietary_vendor_oneplus" remote="github" revision="cm-11.0" />
   <project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" remote="github" revision="cm-11.0" />
 
-<!-- serranoltexx -->
-   <project path="device/samsung/serranoltexx" name="CyanogenMod/android_device_samsung_serranoltexx" remote="github" revision="cm-11.0" />
-   <project path="device/samsung/serrano-common" name="CyanogenMod/android_device_samsung_serrano-common" remote="github" revision="cm-11.0" />
-   <project path="device/samsung/msm8930-common" name="CyanogenMod/android_device_samsung_msm8930-common" remote="github" revision="cm-11.0" />
-   <project path="kernel/samsung/msm8930-common" name="CyanogenMod/android_kernel_samsung_msm8930-common" remote="github" revision="cm-11.0" />
+  <!-- serranoltexx -->
+  <project path="device/samsung/serranoltexx" name="CyanogenMod/android_device_samsung_serranoltexx" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/serrano-common" name="CyanogenMod/android_device_samsung_serrano-common" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/msm8930-common" name="CyanogenMod/android_device_samsung_msm8930-common" remote="github" revision="cm-11.0" />
+  <project path="kernel/samsung/msm8930-common" name="CyanogenMod/android_kernel_samsung_msm8930-common" remote="github" revision="cm-11.0" />
   
-   <!--emulator -->
+  <!-- emulator -->
   <project path="device/generic/emulatorx86" name="CyanogenMod/android_device_generic_emulatorx86" remote="github" revision="cm-11.0" />
 
 </manifest>
