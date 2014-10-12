@@ -293,7 +293,7 @@
   <project path="external/chromium" name="CyanogenMod/android_external_chromium" remote="github" revision="cm-11.0" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="external/chromium-trace" name="CyanogenMod/android_external_chromium-trace" groups="pdk" remote="github" revision="cm-11.0" />
-  <project path="external/chromium_org" name="CyanogenMod/android_external_chromium_org" remote="github" revision="cm-11.0" />
+  <project path="external/chromium_org" name="temasek/android_external_chromium_org/" remote="github" revision="cm-11.0" />
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
