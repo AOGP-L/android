@@ -386,25 +386,25 @@
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" remote="github" revision="cm-11.0" />
   <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" remote="github" revision="cm-11.0" />
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" remote="github" revision="cm-11.0" />
-  <project path="packages/apps/Browser" name="temasek/android_packages_apps_Browser" remote="github" revision="cm-11.0"  />
-  <project path="packages/apps/Calculator" name="temasek/android_packages_apps_Calculator" remote="github" revision="cm-11.0" />
-  <project path="packages/apps/Calendar" name="temasek/android_packages_apps_Calendar" remote="github" revision="cm-11.0" />
-  <project path="packages/apps/Camera2" name="temasek/android_packages_apps_Camera2/" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/Browser" name="CyanogenMod/android_packages_apps_Browser" remote="github" revision="cm-11.0"  />
+  <project path="packages/apps/Calculator" name="CyanogenMod/android_packages_apps_Calculator" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/Calendar" name="CyanogenMod/android_packages_apps_Calendar" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2/" remote="github" revision="cm-11.0" />
   <project path="packages/apps/CellBroadcastReceiver" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" remote="github" revision="cm-11.0" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" remote="github" revision="cm-11.0" />
-  <project path="packages/apps/CMAccount" name="temasek/android_packages_apps_CMAccount" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/CMAccount" name="CyanogenMod/android_packages_apps_CMAccount" remote="github" revision="cm-11.0" />
   <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-11.0" />
   <project path="packages/apps/CMHome" name="CyanogenMod/android_packages_apps_CMHome" remote="github" revision="cm-11.0" />  
-  <project path="packages/apps/Contacts" name="temasek/android_packages_apps_Contacts" remote="github" revision="cm-11.0" />
-  <project path="packages/apps/ContactsCommon" name="temasek/android_packages_apps_ContactsCommon" remote="github" revision="cm-11.0" />
-  <project path="packages/apps/DeskClock" name="temasek/android_packages_apps_DeskClock" remote="github" revision="cm-11.0" />
-  <project path="packages/apps/Dialer" name="temasek/android_packages_apps_Dialer" remote="github" revision="cm-11.0" />
-  <project path="packages/apps/DSPManager" name="temasek/android_packages_apps_DSPManager" remote="github" revision="cm-11.0" />
-  <project path="packages/apps/Email" name="temasek/android_packages_apps_Email" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/Dialer" name="CyanogenMod/android_packages_apps_Dialer" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" remote="github" revision="cm-11.0" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" remote="github" revision="cm-11.0" />
-  <project path="packages/apps/Gallery2" name="temasek/android_packages_apps_Gallery2" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" remote="github" revision="cm-11.0" />
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" remote="github" revision="cm-11.0" />
-  <project path="packages/apps/InCallUI" name="temasek/android_packages_apps_InCallUI" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/InCallUI" name="CyanogenMod/android_packages_apps_InCallUI" remote="github" revision="cm-11.0" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" remote="github" revision="cm-11.0" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" remote="github" revision="cm-11.0" />
   <project path="packages/apps/Mms" name="CM-i9300-builds/android_packages_apps_Mms" remote="github" revision="cm-11.0" />
@@ -414,7 +414,7 @@
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" remote="github" revision="cm-11.0" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" remote="github" revision="cm-11.0" />
   <project path="packages/apps/Settings" name="CM-i9300-builds/android_packages_apps_Settings" remote="github" revision="cm-11.0" />
-  <project path="packages/apps/ScreenRecorder" name="temasek/android_packages_apps_ScreenRecorder" remote="github" revision="cm-11.0"/>
+  <project path="packages/apps/ScreenRecorder" name="CyanogenMod/android_packages_apps_ScreenRecorder" remote="github" revision="cm-11.0"/>
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" remote="github" revision="cm-11.0" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" remote="github" revision="cm-11.0" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" remote="github" revision="cm-11.0" />
@@ -422,9 +422,9 @@
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" remote="github" revision="cm-11.0" />
   <project path="packages/apps/ThemeChooser" name="Cyanogenmod/android_packages_apps_ThemeChooser" remote="github" revision="cm-11.0" />
   <project path="packages/apps/TUBwallpapers" name="team-ub/android_packages_apps_TUBwallpapers" remote="bitbucketP" revision="cm-11.0" />
-  <project path="packages/apps/Torch" name="temasek/android_packages_apps_Torch" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" remote="github" revision="cm-11.0" />
   <project path="packages/apps/Trebuchet" name="CyanogenMod/android_packages_apps_Trebuchet" remote="github" revision="cm-11.0" />
-  <project path="packages/apps/UnifiedEmail" name="temasek/android_packages_apps_UnifiedEmail/" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/UnifiedEmail" name="CyanogenMod/android_packages_apps_UnifiedEmail/" remote="github" revision="cm-11.0" />
   <project path="packages/apps/VoiceDialer" name="CyanogenMod/android_packages_apps_VoiceDialer" remote="github" revision="cm-11.0" />
   <project path="packages/apps/VoicePlus" name="CyanogenMod/android_packages_apps_VoicePlus" remote="github" revision="cm-11.0" />
   
