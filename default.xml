@@ -42,7 +42,7 @@
   <project path="bootable/recovery-cm" name="CyanogenMod/android_bootable_recovery-cm" remote="github" revision="cm-11.0" />
   <project path="bootable/recovery-twrp" name="VanirAOSP/bootable_recovery_TWRP" remote="github" revision="kk44" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" groups="cts" />
-  <project path="dalvik" name="temasek/android_dalvik" remote="github" revision="cm-11.0" />
+  <project path="dalvik" name="CyanogenMod/android_dalvik" remote="github" revision="cm-11.0" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="developers/docs" name="platform/developers/docs" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
@@ -61,12 +61,12 @@
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" groups="device" remote="github" revision="cm-11.0" />
   <project path="device/sample" name="CyanogenMod/android_device_sample" groups="device" remote="github" revision="cm-11.0" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="libcore" name="temasek/android_libcore" remote="github" revision="cm-11.0" />
+  <project path="libcore" name="CyanogenMod/android_libcore" remote="github" revision="cm-11.0" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" remote="github" revision="cm-11.0" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="sdk" name="CyanogenMod/android_sdk"  remote="github" revision="cm-11.0"/>
   <project path="system/core" name="temasek/android_system_core" groups="pdk" remote="github" revision="cm-11.0" />
-  <project path="system/extras" name="temasek/android_system_extras" groups="pdk" remote="github" revision="cm-11.0" />
+  <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="system/media" name="temasek/android_system_media" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="system/netd" name="CyanogenMod/android_system_netd" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" remote="github" revision="cm-11.0" />
@@ -89,7 +89,7 @@
   <project path="external/apache-qp" name="CyanogenMod/android_external_apache-qp" remote="github" revision="cm-11.0" />
   <project path="external/apache-xml" name="CyanogenMod/android_external_apache-xml" remote="github" revision="cm-11.0" />
   <project path="external/arduino" name="CyanogenMod/android_external_arduino" remote="github" revision="cm-11.0" />
-  <project path="external/bash" name="temasek/android_external_bash" remote="github" revision="cm-11.0" />
+  <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="cm-11.0" />
   <project path="external/bison" name="CyanogenMod/android_external_bison" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="external/blktrace" name="CyanogenMod/android_external_blktrace" remote="github" revision="cm-11.0" />
   <project path="external/bluetooth/bluedroid" name="CyanogenMod/android_external_bluetooth_bluedroid" groups="pdk" remote="github" revision="cm-11.0" />
@@ -101,14 +101,14 @@
   <project path="external/cardslib" name="CyanogenMod/android_external_cardslib" remote="github" revision="cm-11.0" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="external/checkpolicy" name="CyanogenMod/android_external_checkpolicy" groups="pdk" remote="github" revision="cm-11.0" />
-  <project path="external/clang" name="temasek/android_external_clang" groups="pdk" remote="github" revision="cm-11.0" />
+  <project path="external/clang" name="CyanogenMod/android_external_clang" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="external/compiler-rt" name="CyanogenMod/android_external_compiler-rt" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" remote="github" revision="cm-11.0" />
   <project path="external/crda" name="CyanogenMod/android_external_crda" remote="github" revision="cm-11.0" />
   <project path="external/curl" name="CyanogenMod/android_external_curl" />
   <project path="external/dexmaker" name="CyanogenMod/android_external_dexmaker" remote="github" revision="cm-11.0" />
   <project path="external/dhcpcd" name="CyanogenMod/android_external_dhcpcd" remote="github" revision="cm-11.0" />
-  <project path="external/dnsmasq" name="temasek/android_external_dnsmasq" groups="pdk" remote="github" revision="cm-11.0" />
+  <project path="external/dnsmasq" name="CyanogenMod/android_external_dnsmasq" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="external/doclava" name="CyanogenMod/android_external_doclava" remote="github" revision="cm-11.0" />
   <project path="external/dropbear" name="CyanogenMod/android_external_dropbear" remote="github" revision="cm-11.0" />
   <project path="external/droiddriver" name="platform/external/droiddriver" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
@@ -129,7 +129,7 @@
   <project path="external/flac" name="CyanogenMod/android_external_flac" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="external/freetype" name="CyanogenMod/android_external_freetype" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="external/fsck_msdos" name="CyanogenMod/android_external_fsck_msdos" remote="github" revision="cm-11.0" />
-  <project path="external/fuse" name="temasek/android_external_fuse" remote="github" revision="cm-11.0" />
+  <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="github" revision="cm-11.0" />
   <project path="external/ganymed-ssh2" name="CyanogenMod/android_external_ganymed-ssh2" remote="github" revision="cm-11.0" />
   <project path="external/gcc-demangle" name="CyanogenMod/android_external_gcc-demangle" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="external/genext2fs" name="CyanogenMod/android_external_genext2fs" remote="github" revision="cm-11.0" />
@@ -203,7 +203,7 @@
   <project path="external/littlemock" name="CyanogenMod/android_external_littlemock" remote="github" revision="cm-11.0" />
   <project path="external/llvm" name="CyanogenMod/android_external_llvm" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="external/lzma" name="platform/external/lzma" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="external/lsof" name="temasek/android_external_lsof" remote="github" revision="cm-11.0" />
+  <project path="external/lsof" name="CyanogenMod/android_external_lsof" remote="github" revision="cm-11.0" />
   <project path="external/lzo" name="CyanogenMod/android_external_lzo" remote="github" revision="cm-11.0" />
   <project path="external/marisa-trie" name="platform/external/marisa-trie" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="external/markdown" name="CyanogenMod/android_external_markdown" remote="github" revision="cm-11.0" />
@@ -229,7 +229,7 @@
   <project path="external/open-vcdiff" name="platform/external/open-vcdiff" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="external/opencv" name="CyanogenMod/android_external_opencv" remote="github" revision="cm-11.0" />
   <project path="external/openfst" name="CyanogenMod/android_external_openfst" remote="github" revision="cm-11.0" />
-  <project path="external/openssh" name="temasek/android_external_openssh" remote="github" revision="cm-11.0" />
+  <project path="external/openssh" name="CyanogenMod/android_external_openssh" remote="github" revision="cm-11.0" />
   <project path="external/openssl" name="CyanogenMod/android_external_openssl" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="external/oprofile" name="CyanogenMod/android_external_oprofile" remote="github" revision="cm-11.0" />
   <project path="external/pciutils" name="CyanogenMod/android_external_pciutils" remote="github" revision="cm-11.0" />
@@ -263,7 +263,7 @@
   <project path="external/sqlite" name="temasek/android_external_sqlite" remote="github" revision="cm-11.0" />
   <project path="external/srec" name="CyanogenMod/android_external_srec" remote="github" revision="cm-11.0" />
   <project path="external/srtp" name="CyanogenMod/android_external_srtp" remote="github" revision="cm-11.0" />
-  <project path="external/stlport" name="temasek/android_external_stlport" groups="pdk" remote="github" revision="cm-11.0" />
+  <project path="external/stlport" name="CyanogenMod/android_external_stlport" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="external/strace" name="CyanogenMod/android_external_strace" remote="github" revision="cm-11.0" />
   <project path="external/stressapptest" name="CyanogenMod/android_external_stressapptest" remote="github" revision="cm-11.0" />
   <project path="external/svox" name="CyanogenMod/android_external_svox" remote="github" revision="cm-11.0" />
@@ -290,7 +290,7 @@
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" remote="github" revision="cm-11.0" />
  
   <!-- chromium --> 
-  <project path="external/chromium" name="temasek/android_external_chromium" remote="github" revision="cm-11.0" />
+  <project path="external/chromium" name="CyanogenMod/android_external_chromium" remote="github" revision="cm-11.0" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="external/chromium-trace" name="CyanogenMod/android_external_chromium-trace" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="external/chromium_org" name="temasek/android_external_chromium_org/" remote="github" revision="cm-11.0" />
@@ -320,12 +320,12 @@
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
 
   <!-- frameworks -->  
-  <project path="frameworks/av" name="temasek/android_frameworks_av" remote="github" revision="cm-11.0" />
+  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" remote="github" revision="cm-11.0" />
   <project path="frameworks/base" name="CM-i9300-builds/android_frameworks_base" remote="github" revision="cm-11.0" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" remote="github" revision="cm-11.0" />
-  <project path="frameworks/compile/slang" name="temasek/android_frameworks_compile_slang" groups="pdk" remote="github" revision="cm-11.0" />
-  <project path="frameworks/ex" name="temasek/android_frameworks_ex" remote="github" revision="cm-11.0" />
+  <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" remote="github" revision="cm-11.0" />
+  <project path="frameworks/ex" name="CyanogenMod/android_frameworks_ex" remote="github" revision="cm-11.0" />
   <project path="frameworks/mff" name="CyanogenMod/android_frameworks_mff" remote="github" revision="cm-11.0" />
   <project path="frameworks/ml" name="CyanogenMod/android_frameworks_ml" remote="github" revision="cm-11.0" />
   <project path="frameworks/native" name="temasek/android_frameworks_native" groups="pdk" remote="github" revision="cm-11.0" />
@@ -339,18 +339,18 @@
   <project path="frameworks/opt/inputmethodcommon" name="CyanogenMod/android_frameworks_opt_inputmethodcommon" remote="github" revision="cm-11.0" />
   <project path="frameworks/opt/mailcommon" name="CyanogenMod/android_frameworks_opt_mailcommon" remote="github" revision="cm-11.0" />
   <project path="frameworks/opt/mms" name="CyanogenMod/android_frameworks_opt_mms" remote="github" revision="cm-11.0" />
-  <project path="frameworks/opt/net/voip" name="temasek/android_frameworks_opt_net_voip" remote="github" revision="cm-11.0" />
+  <project path="frameworks/opt/net/voip" name="CyanogenMod/android_frameworks_opt_net_voip" remote="github" revision="cm-11.0" />
   <project path="frameworks/opt/photoviewer" name="CyanogenMod/android_frameworks_opt_photoviewer" remote="github" revision="cm-11.0" />
   <project path="frameworks/opt/timezonepicker" name="temasek/android_frameworks_opt_timezonepicker" remote="github" revision="cm-11.0" />
   <project path="frameworks/opt/telephony" name="temasek/android_frameworks_opt_telephony/" remote="github" revision="cm-11.0" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" remote="github" revision="cm-11.0" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="frameworks/rs" name="temasek/android_frameworks_rs" groups="pdk" remote="github" revision="cm-11.0" />
+  <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" groups="pdk" remote="github" revision="cm-11.0" />
   <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" remote="github" revision="cm-11.0" />
   <project path="frameworks/testing" name="CyanogenMod/android_frameworks_testing" remote="github" revision="cm-11.0" />
   <project path="frameworks/volley" name="CyanogenMod/android_frameworks_volley" remote="github" revision="cm-11.0" />
   <project path="frameworks/webview" name="CM-i9300-builds/android_frameworks_webview" remote="github" revision="cm-11.0" />
-  <project path="frameworks/wilhelm" name="temasek/android_frameworks_wilhelm" remote="github" revision="cm-11.0" />
+  <project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" remote="github" revision="cm-11.0" />
   
   <!-- hardware -->
   <project path="hardware/akm" name="CyanogenMod/android_hardware_akm" groups="pdk" remote="github" revision="cm-11.0" />
