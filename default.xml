@@ -503,11 +503,11 @@
   
   <!-- toolchain -->
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.6" groups="linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.7" groups="pdk,linux,arm" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="temasek/Toolchain" remote="github" revision="linaro-4.8-arm-eabi" />
-  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="temasek/Toolchain" remote="github" revision="linaro-4.8-arm-linux-androideabi" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="temasek/Toolchain" remote="github" revision="aosp-4.8-arm-eabi" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="temasek/Toolchain" remote="github" revision="aosp-4.8-arm-linux-androideabi" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.9" name="temasek/Toolchain" remote="github" revision="linaro-4.9-arm-eabi" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" name="temasek/Toolchain" remote="github" revision="linaro-4.9-arm-linux-androideabi" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.10" name="Cl3Kener/sm-arm-eabi-4.10" remote="bitbucketP" revision="master" />
