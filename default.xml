@@ -609,9 +609,10 @@
   <project path="device/samsung/jf-common" name="CyanogenMod/android_device_samsung_jf-common" remote="github" revision="cm-11.0" />
   <project path="kernel/samsung/jf" name="CyanogenMod/android_kernel_samsung_jf" remote="github" revision="cm-11.0" />
   
-  <!-- t0lte -->
+  <!-- t0lte & n7100 -->
   <project path="device/samsung/t0lte" name="CyanogenMod/android_device_samsung_t0lte" remote="github" revision="cm-11.0" />
-  
+  <project path="device/samsung/n7100" name="CyanogenMod/android_device_samsung_n7100" remote="github" revision="cm-11.0" />
+   
   <!-- hlte -->
   <project path="device/samsung/hlte" name="CyanogenMod/android_device_samsung_hlte" remote="github" revision="cm-11.0" />
   <project path="device/samsung/hlte-common" name="CyanogenMod/android_device_samsung_hlte-common" remote="github" revision="cm-11.0" />
