@@ -342,7 +342,7 @@
   <project path="frameworks/opt/net/voip" name="CyanogenMod/android_frameworks_opt_net_voip" remote="github" revision="cm-11.0" />
   <project path="frameworks/opt/photoviewer" name="CyanogenMod/android_frameworks_opt_photoviewer" remote="github" revision="cm-11.0" />
   <project path="frameworks/opt/timezonepicker" name="temasek/android_frameworks_opt_timezonepicker" remote="github" revision="cm-11.0" />
-  <project path="frameworks/opt/telephony" name="temasek/android_frameworks_opt_telephony/" remote="github" revision="cm-11.0" />
+  <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony/" remote="github" revision="cm-11.0" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" remote="github" revision="cm-11.0" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
   <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" groups="pdk" remote="github" revision="cm-11.0" />
