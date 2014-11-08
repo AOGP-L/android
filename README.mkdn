@@ -6,7 +6,7 @@ To get started with Android/Team (UB), you'll need to get familiar with Git and 
 
 To initialize your local repository using the CM-i9300-builds trees, use a command like this:
 
-repo init -u git://github.com/CM-i9300-builds/android.git -b staging/cm-12.0-caf
+repo init -u git://github.com/CM-i9300-builds/android.git -b cm-12.0
 
 Then to sync up:
 
