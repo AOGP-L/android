@@ -550,41 +550,41 @@
   <!-- devices -->
   
   <!-- i9300/i9305 -->
-  <project path="device/samsung/i9300" name="CM-i9300-builds/android_device_samsung_i9300" remote="github" revision="cm-12.0" />
-  <project path="device/samsung/i9305" name="CM-i9300-builds/android_device_samsung_i9305" remote="github" revision="cm-12.0" />
-  <project path="device/samsung/smdk4412-common" name="CyanogenMod/android_device_samsung_smdk4412-common" remote="github" revision="cm-12.0" />
-  <project path="device/samsung/smdk4412-qcom-common" name="CyanogenMod/android_device_samsung_smdk4412-qcom-common" remote="github" revision="cm-12.0" />
-  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-12.0" />
-  <project path="kernel/samsung/smdk4412" name="CyanogenMod/android_kernel_samsung_smdk4412" remote="github" revision="cm-12.0" />
-  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-12.0" />
-  <project path="vendor/samsung" name="CM-i9300-builds/proprietary_vendor_samsung" remote="github" revision="cm-12.0" />
+  <project path="device/samsung/i9300" name="CM-i9300-builds/android_device_samsung_i9300" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/i9305" name="CM-i9300-builds/android_device_samsung_i9305" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/smdk4412-common" name="CyanogenMod/android_device_samsung_smdk4412-common" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/smdk4412-qcom-common" name="CyanogenMod/android_device_samsung_smdk4412-qcom-common" remote="github" revision="cm-11.0" />
+  <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-11.0" />
+  <project path="kernel/samsung/smdk4412" name="CyanogenMod/android_kernel_samsung_smdk4412" remote="github" revision="cm-11.0" />
+  <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-11.0" />
+  <project path="vendor/samsung" name="CM-i9300-builds/proprietary_vendor_samsung" remote="github" revision="cm-11.0" />
   
   <!-- manta -->
-  <project path="device/samsung/manta" name="CyanogenMod/android_device_samsung_manta" remote="github" revision="cm-12.0" />
-  <project path="kernel/samsung/manta" name="CyanogenMod/android_kernel_samsung_manta" remote="github" revision="cm-12.0" />
-  <project path="vendor/audience" name="TheMuppets/proprietary_vendor_audience" remote="github" revision="cm-12.0" />
-  <project path="vendor/broadcom" name="TheMuppets/proprietary_vendor_broadcom" remote="github" revision="cm-12.0" />
-  <project path="vendor/widevine" name="TheMuppets/proprietary_vendor_widevine" remote="github" revision="cm-12.0" />
+  <project path="device/samsung/manta" name="CyanogenMod/android_device_samsung_manta" remote="github" revision="cm-11.0" />
+  <project path="kernel/samsung/manta" name="CyanogenMod/android_kernel_samsung_manta" remote="github" revision="cm-11.0" />
+  <project path="vendor/audience" name="TheMuppets/proprietary_vendor_audience" remote="github" revision="cm-11.0" />
+  <project path="vendor/broadcom" name="TheMuppets/proprietary_vendor_broadcom" remote="github" revision="cm-11.0" />
+  <project path="vendor/widevine" name="TheMuppets/proprietary_vendor_widevine" remote="github" revision="cm-11.0" />
   
   <!-- m7 -->
-  <project path="device/htc/m7" name="CyanogenMod/android_device_htc_m7" remote="github" revision="cm-12.0" />
-  <project path="device/htc/m7-common" name="CyanogenMod/android_device_htc_m7-common" remote="github" revision="cm-12.0" />
-  <project path="device/htc/msm8960-common" name="CyanogenMod/android_device_htc_msm8960-common" remote="github" revision="cm-12.0" />
-  <project path="kernel/htc/m7" name="CyanogenMod/android_kernel_htc_m7" remote="github" revision="cm-12.0" />
-  <project path="kernel/htc/msm8960" name="CyanogenMod/android_kernel_htc_msm8960" remote="github" revision="cm-12.0" />
-  <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="github" revision="cm-12.0" />
+  <project path="device/htc/m7" name="CyanogenMod/android_device_htc_m7" remote="github" revision="cm-11.0" />
+  <project path="device/htc/m7-common" name="CyanogenMod/android_device_htc_m7-common" remote="github" revision="cm-11.0" />
+  <project path="device/htc/msm8960-common" name="CyanogenMod/android_device_htc_msm8960-common" remote="github" revision="cm-11.0" />
+  <project path="kernel/htc/m7" name="CyanogenMod/android_kernel_htc_m7" remote="github" revision="cm-11.0" />
+  <project path="kernel/htc/msm8960" name="CyanogenMod/android_kernel_htc_msm8960" remote="github" revision="cm-11.0" />
+  <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="github" revision="cm-11.0" />
   
   <!-- m8 -->
-  <project path="device/htc/m8" name="CyanogenMod/android_device_htc_m8" remote="github" revision="cm-12.0" />
-  <project path="kernel/htc/msm8974" name="CyanogenMod/android_kernel_htc_msm8974" remote="github" revision="cm-12.0" />
+  <project path="device/htc/m8" name="CyanogenMod/android_device_htc_m8" remote="github" revision="cm-11.0" />
+  <project path="kernel/htc/msm8974" name="CyanogenMod/android_kernel_htc_msm8974" remote="github" revision="cm-11.0" />
   
   <!-- flo/deb/mako -->
-  <project path="device/asus/deb" name="CyanogenMod/android_device_asus_deb" remote="github" revision="cm-12.0" />
-  <project path="device/asus/flo" name="CyanogenMod/android_device_asus_flo" remote="github" revision="cm-12.0" />
-  <project path="device/lge/mako" name="CyanogenMod/android_device_lge_mako" remote="github" revision="cm-12.0" />
-  <project path="kernel/google/msm" name="CyanogenMod/android_kernel_google_msm" remote="github" revision="cm-12.0" />
-  <project path="vendor/asus" name="TheMuppets/proprietary_vendor_asus" remote="github" revision="cm-12.0" />
-  <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-12.0" />
+  <project path="device/asus/deb" name="CyanogenMod/android_device_asus_deb" remote="github" revision="cm-11.0" />
+  <project path="device/asus/flo" name="CyanogenMod/android_device_asus_flo" remote="github" revision="cm-11.0" />
+  <project path="device/lge/mako" name="CyanogenMod/android_device_lge_mako" remote="github" revision="cm-11.0" />
+  <project path="kernel/google/msm" name="CyanogenMod/android_kernel_google_msm" remote="github" revision="cm-11.0" />
+  <project path="vendor/asus" name="TheMuppets/proprietary_vendor_asus" remote="github" revision="cm-11.0" />
+  <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-11.0" />
  
   <!-- wingray -->
   <project path="device/generic/armv7-a" name="CyanogenMod/android_device_generic_armv7-a" groups="pdk" remote="github" revision="cm-10.1"/>
@@ -600,56 +600,56 @@
   <project path="kernel/samsung/aries" name="CyanogenMod/android_kernel_samsung_aries" remote="github" revision="cm-11.0" />
   
   <!-- falcon --> 
-  <project path="kernel/motorola/msm8226" name="CyanogenMod/android_kernel_motorola_msm8226" remote="github" revision="cm-12.0" />
-  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-12.0" />
-  <project path="device/motorola/msm8226-common" name="CyanogenMod/android_device_motorola_msm8226-common" remote="github" revision="cm-12.0" />
-  <project path="device/motorola/falcon" name="CyanogenMod/android_device_motorola_falcon" remote="github" revision="cm-12.0" />
-  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-12.0" />
-  <project path="hardware/qcom/media-caf-new" name="CyanogenMod/android_hardware_qcom_media-caf-new" remote="github" revision="cm-12.0" />
-  <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" remote="github" revision="cm-12.0" />
-  <project path="hardware/qcom/display-caf-new" name="CyanogenMod/android_hardware_qcom_display-caf-new" remote="github" revision="cm-12.0" />
+  <project path="kernel/motorola/msm8226" name="CyanogenMod/android_kernel_motorola_msm8226" remote="github" revision="cm-11.0" />
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-11.0" />
+  <project path="device/motorola/msm8226-common" name="CyanogenMod/android_device_motorola_msm8226-common" remote="github" revision="cm-11.0" />
+  <project path="device/motorola/falcon" name="CyanogenMod/android_device_motorola_falcon" remote="github" revision="cm-11.0" />
+  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/media-caf-new" name="CyanogenMod/android_hardware_qcom_media-caf-new" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" remote="github" revision="cm-11.0" />
+  <project path="hardware/qcom/display-caf-new" name="CyanogenMod/android_hardware_qcom_display-caf-new" remote="github" revision="cm-11.0" />
    
   <!-- klte -->
-  <project path="device/samsung/klte" name="CM-i9300-builds/android_device_samsung_klte" remote="github" revision="cm-12.0" />
-  <project path="device/samsung/kltevzw" name="CyanogenMod/android_device_samsung_kltevzw" remote="github" revision="cm-12.0" />
-  <project path="device/samsung/kltespr" name="CyanogenMod/android_device_samsung_kltespr" remote="github" revision="cm-12.0" />
-  <project path="device/samsung/klte-common" name="CM-i9300-builds/android_device_samsung_klte-common" remote="github" revision="cm-12.0" />
-  <project path="device/samsung/msm8974-common" name="CyanogenMod/android_device_samsung_msm8974-common" remote="github" revision="cm-12.0" />
-  <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-12.0" />
-  <project path="kernel/samsung/klte" name="CM-i9300-builds/android_kernel_samsung_klte" remote="github" revision="cm-12.0" />
+  <project path="device/samsung/klte" name="CM-i9300-builds/android_device_samsung_klte" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/kltevzw" name="CyanogenMod/android_device_samsung_kltevzw" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/kltespr" name="CyanogenMod/android_device_samsung_kltespr" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/klte-common" name="CM-i9300-builds/android_device_samsung_klte-common" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/msm8974-common" name="CyanogenMod/android_device_samsung_msm8974-common" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-11.0" />
+  <project path="kernel/samsung/klte" name="CM-i9300-builds/android_kernel_samsung_klte" remote="github" revision="cm-11.0" />
    
   <!-- hammerhead --> 
-  <project path="device/lge/hammerhead" name="CyanogenMod/android_device_lge_hammerhead" remote="github" revision="cm-12.0" />
-  <project path="kernel/lge/hammerhead" name="CyanogenMod/android_kernel_lge_hammerhead" remote="github" revision="cm-12.0" />
+  <project path="device/lge/hammerhead" name="CyanogenMod/android_device_lge_hammerhead" remote="github" revision="cm-11.0" />
+  <project path="kernel/lge/hammerhead" name="CyanogenMod/android_kernel_lge_hammerhead" remote="github" revision="cm-11.0" />
   
   <!-- jflte -->
-  <project path="device/samsung/jflte" name="CyanogenMod/android_device_samsung_jflte" remote="github" revision="cm-12.0" />
-  <project path="device/samsung/jf-common" name="CyanogenMod/android_device_samsung_jf-common" remote="github" revision="cm-12.0" />
-  <project path="kernel/samsung/jf" name="CyanogenMod/android_kernel_samsung_jf" remote="github" revision="cm-12.0" />
+  <project path="device/samsung/jflte" name="CyanogenMod/android_device_samsung_jflte" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/jf-common" name="CyanogenMod/android_device_samsung_jf-common" remote="github" revision="cm-11.0" />
+  <project path="kernel/samsung/jf" name="CyanogenMod/android_kernel_samsung_jf" remote="github" revision="cm-11.0" />
   
   <!-- t0lte & n7100 -->
-  <project path="device/samsung/t0lte" name="CyanogenMod/android_device_samsung_t0lte" remote="github" revision="cm-12.0" />
-  <project path="device/samsung/n7100" name="CyanogenMod/android_device_samsung_n7100" remote="github" revision="cm-12.0" />
+  <project path="device/samsung/t0lte" name="CyanogenMod/android_device_samsung_t0lte" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/n7100" name="CyanogenMod/android_device_samsung_n7100" remote="github" revision="cm-11.0" />
    
   <!-- hlte -->
-  <project path="device/samsung/hlte" name="CyanogenMod/android_device_samsung_hlte" remote="github" revision="cm-12.0" />
-  <project path="device/samsung/hlte-common" name="CyanogenMod/android_device_samsung_hlte-common" remote="github" revision="cm-12.0" />
-  <project path="kernel/samsung/hlte" name="CyanogenMod/android_kernel_samsung_hlte" remote="github" revision="cm-12.0" />
+  <project path="device/samsung/hlte" name="CyanogenMod/android_device_samsung_hlte" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/hlte-common" name="CyanogenMod/android_device_samsung_hlte-common" remote="github" revision="cm-11.0" />
+  <project path="kernel/samsung/hlte" name="CyanogenMod/android_kernel_samsung_hlte" remote="github" revision="cm-11.0" />
  
   <!-- OPO bacon -->
-  <project path="device/oneplus/bacon" name="CyanogenMod/android_device_oneplus_bacon" remote="github" revision="cm-12.0" />
-  <project path="device/oppo/common" name="CyanogenMod/android_device_oppo_common" remote="github" revision="cm-12.0" />
-  <project path="kernel/oneplus/msm8974" name="CyanogenMod/android_kernel_oneplus_msm8974" remote="github" revision="cm-12.0" />
-  <project path="device/oppo/msm8974-common" name="CyanogenMod/android_device_oppo_msm8974-common" remote="github" revision="cm-12.0" />
-  <project path="vendor/oneplus" name="TheMuppets/proprietary_vendor_oneplus" remote="github" revision="cm-12.0" />
-  <project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" remote="github" revision="cm-12.0" />
+  <project path="device/oneplus/bacon" name="CyanogenMod/android_device_oneplus_bacon" remote="github" revision="cm-11.0" />
+  <project path="device/oppo/common" name="CyanogenMod/android_device_oppo_common" remote="github" revision="cm-11.0" />
+  <project path="kernel/oneplus/msm8974" name="CyanogenMod/android_kernel_oneplus_msm8974" remote="github" revision="cm-11.0" />
+  <project path="device/oppo/msm8974-common" name="CyanogenMod/android_device_oppo_msm8974-common" remote="github" revision="cm-11.0" />
+  <project path="vendor/oneplus" name="TheMuppets/proprietary_vendor_oneplus" remote="github" revision="cm-11.0" />
+  <project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" remote="github" revision="cm-11.0" />
 
   <!-- serranoltexx -->
-  <project path="device/samsung/serranoltexx" name="CyanogenMod/android_device_samsung_serranoltexx" remote="github" revision="cm-12.0" />
-  <project path="device/samsung/serrano-common" name="CyanogenMod/android_device_samsung_serrano-common" remote="github" revision="cm-12.0" />
-  <project path="device/samsung/msm8930-common" name="CyanogenMod/android_device_samsung_msm8930-common" remote="github" revision="cm-12.0" />
-  <project path="kernel/samsung/msm8930-common" name="CyanogenMod/android_kernel_samsung_msm8930-common" remote="github" revision="cm-12.0" />
+  <project path="device/samsung/serranoltexx" name="CyanogenMod/android_device_samsung_serranoltexx" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/serrano-common" name="CyanogenMod/android_device_samsung_serrano-common" remote="github" revision="cm-11.0" />
+  <project path="device/samsung/msm8930-common" name="CyanogenMod/android_device_samsung_msm8930-common" remote="github" revision="cm-11.0" />
+  <project path="kernel/samsung/msm8930-common" name="CyanogenMod/android_kernel_samsung_msm8930-common" remote="github" revision="cm-11.0" />
   
   <!-- emulator -->
-  <project path="device/generic/emulatorx86" name="CyanogenMod/android_device_generic_emulatorx86" remote="github" revision="cm-12.0" />
+  <project path="device/generic/emulatorx86" name="CyanogenMod/android_device_generic_emulatorx86" remote="github" revision="cm-11.0" />
 </manifest>
