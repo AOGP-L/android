@@ -385,7 +385,6 @@
   <project path="hardware/qcom/msm8x27" name="platform/hardware/qcom/msm8x27" groups="qcom_msm8x27" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" remote="aosp" revision="refs/tags/android-5.0.0_r2" />
-  <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" groups="qcom" />
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" groups="pdk" />
   <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
@@ -556,7 +555,7 @@
   <project path="hardware/samsung" name="CyanogenMod/android_hardware_samsung" remote="github" revision="cm-11.0" />
   <project path="kernel/samsung/smdk4412" name="CyanogenMod/android_kernel_samsung_smdk4412" remote="github" revision="cm-11.0" />
   <project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-11.0" />
-  <project path="vendor/samsung" name="CM-i9300-builds/proprietary_vendor_samsung" remote="github" revision="cm-11.0" />
+  <project path="vendor/samsung" name="TheMuppets/proprietary_vendor_samsung" remote="github" revision="cm-12.0" />
   
   <!-- manta -->
   <project path="device/samsung/manta" name="CyanogenMod/android_device_samsung_manta" remote="github" revision="cm-11.0" />
@@ -571,7 +570,7 @@
   <project path="device/htc/msm8960-common" name="CyanogenMod/android_device_htc_msm8960-common" remote="github" revision="cm-11.0" />
   <project path="kernel/htc/m7" name="CyanogenMod/android_kernel_htc_m7" remote="github" revision="cm-11.0" />
   <project path="kernel/htc/msm8960" name="CyanogenMod/android_kernel_htc_msm8960" remote="github" revision="cm-11.0" />
-  <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="github" revision="cm-11.0" />
+  <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="github" revision="cm-12.0" />
   
   <!-- m8 -->
   <project path="device/htc/m8" name="CyanogenMod/android_device_htc_m8" remote="github" revision="cm-11.0" />
@@ -582,8 +581,8 @@
   <project path="device/asus/flo" name="CyanogenMod/android_device_asus_flo" remote="github" revision="cm-11.0" />
   <project path="device/lge/mako" name="CyanogenMod/android_device_lge_mako" remote="github" revision="cm-11.0" />
   <project path="kernel/google/msm" name="CyanogenMod/android_kernel_google_msm" remote="github" revision="cm-11.0" />
-  <project path="vendor/asus" name="TheMuppets/proprietary_vendor_asus" remote="github" revision="cm-11.0" />
-  <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-11.0" />
+  <project path="vendor/asus" name="TheMuppets/proprietary_vendor_asus" remote="github" revision="cm-12.0" />
+  <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-12.0" />
  
   <!-- wingray -->
   <project path="device/generic/armv7-a" name="CyanogenMod/android_device_generic_armv7-a" groups="pdk" remote="github" revision="cm-10.1"/>
