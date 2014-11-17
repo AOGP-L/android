@@ -554,5 +554,7 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.0_r6" />
-  <project path="vendor/cm" name="AOGP-L/android_vendor_cm" revision="lp" />
+  <project path="vendor/aogp" name="AOGP/android_vendor_aogp" revision="kitkat" >
+      <copyfile src="build.sh" dest="rom-build.sh" />
+  </project>
 </manifest>
