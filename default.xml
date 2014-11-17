@@ -10,6 +10,9 @@
   
   <remote name="AOGP-L"
           fetch="https://github.com/AOGP-L/" />
+          
+  <remote name="AOGP-Devices"
+         fetch="https://github.com/AOGP-Devices/" />
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
