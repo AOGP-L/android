@@ -627,7 +627,7 @@
   <project path="device/samsung/kltespr" name="CyanogenMod/android_device_samsung_kltespr" remote="github" revision="cm-12.0" />
   <project path="device/samsung/klte-common" name="CM-i9300-builds/android_device_samsung_klte-common" remote="github" revision="cm-12.0" />
   <project path="device/samsung/msm8974-common" name="CM-i9300-builds/android_device_samsung_msm8974-common" remote="github" revision="cm-12.0" />
-  <project path="device/samsung/qcom-common" name="temasek/android_device_samsung_qcom-common" remote="github" revision="cm-12.0" />
+  <project path="device/samsung/qcom-common" name="Team-Hydra/android_device_samsung_qcom-common" remote="github" revision="cm-12.0" />
   <project path="kernel/samsung/klte" name="CM-i9300-builds/android_kernel_samsung_klte" remote="github" revision="cm-12.0" />
    
   <!-- hammerhead --> 
