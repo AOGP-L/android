@@ -14,6 +14,9 @@
   <remote name="AOGP-Devices"
          fetch="https://github.com/AOGP-Devices/" />
 
+  <remote  name="cm"
+           fetch="git://github.com/CyanogenMod/" />
+
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
