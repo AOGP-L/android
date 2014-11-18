@@ -563,4 +563,11 @@
   <project path="vendor/aogp" name="AOGP-L/android_vendor_aogp" revision="lp" >
       <copyfile src="build.sh" dest="rom-build.sh" />
   </project>
+  
+  <!--Vendors-->
+  <project path="vendor/lge" name="AOGP-Devices/proprietary_vendor_lge" remote="github" revision="lp" />
+  <project path="vendor/samsung" name="AOGP-Devices/proprietary_vendor_samsung" remote="github" revision="lp" />
+  <project path="vendor/htc" name="AOGP-Devices/proprietary_vendor_htc" remote="github" revision="lp" />
+  <project path="vendor/motorola" name="AOGP-Devices/proprietary_vendor_motorola" remote="github" revision="lp" />
+  
 </manifest>
