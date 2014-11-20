@@ -53,8 +53,8 @@
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
-  <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project path="device/qcom/sepolicy" name="CyanogenMod/android_device_qcom_sepolicy" />
+  <project path="device/sample" name="device/sample" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.0_r7" />
@@ -418,7 +418,7 @@
   <!-- <project path="packages/apps/CMAccount" name="CyanogenMod/android_packages_apps_CMAccount" /> -->
   <project path="packages/apps/CMBugReport" name="CyanogenMod/android_packages_apps_CMBugreport" />
   <!-- <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" /> -->
-  <project path="packages/apps/CMHome" name="CyanogenMod/android_packages_apps_CMHome" />
+  <!-- <project path="packages/apps/CMHome" name="CyanogenMod/android_packages_apps_CMHome" /> -->
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" />
   <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" />
