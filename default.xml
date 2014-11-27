@@ -604,9 +604,9 @@
   <project path="device/generic/armv7-a" name="CyanogenMod/android_device_generic_armv7-a" groups="pdk" remote="github" revision="cm-10.1"/>
   <project path="device/moto/wingray" name="TeamEOS/device_moto_wingray" remote="github" revision="lp5.0" />
   <project path="kernel/moto/wingray" name="TeamEOS/kernel_moto_wingray" remote="github" revision="lp5.0" />
-  <project path="vendor/broadcom/wingray" name="TeamEOS/vendor_broadcom_wingray" remote="github" revision="lp5.0" />
+  <project path="vendor/broadcom/" name="TeamEOS/vendor_broadcom" remote="github" revision="lp5.0" />
   <project path="vendor/moto/wingray" name="TeamEOS/vendor_moto_wingray" remote="github" revision="lp5.0" />
-  <project path="vendor/nvidia/wingray" name="TeamEOS/vendor_nvidia_wingray" remote="github" revision="lp5.0" />
+  <project path="vendor/nvidia/" name="TeamEOS/vendor_nvidia" remote="github" revision="lp5.0" />
   
   <!-- captivate --> 
   <project path="device/samsung/aries-common" name="CyanogenMod/android_device_samsung_aries-common" remote="github" revision="cm-11.0" />
