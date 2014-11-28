@@ -25,6 +25,10 @@
   </project>
 
   <project path="android" name="CM-i9300-builds/android" />
+  
+  <!-- Remove these if you wish to use our repo's as they are private and will not sync -->
+  
+  <project path="packages/apps/OpenDelta" name="team-ub/android_packages_apps_opendelta" remote="bitbucketP" revision="cm12" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
