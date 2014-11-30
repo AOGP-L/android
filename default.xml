@@ -28,6 +28,7 @@
   
   <!-- Remove these if you wish to use our repo's as they are private and will not sync -->
   
+  <project path="scripts" name="team-ub/android_scripts" remote="bitbucketP" revision="master" />
   <project path="packages/apps/OpenDelta" name="team-ub/android_packages_apps_opendelta" remote="bitbucketP" revision="cm12" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
