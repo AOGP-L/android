@@ -566,10 +566,8 @@
   
   <!-- i9300/i9305 -->
   <project path="device/samsung/i9300" name="Team-UB/android_device_samsung_i9300" remote="github" revision="cm-12.0" />
-  <!--project path="device/samsung/i9305" name="Team-UB/android_device_samsung_i9305" remote="github" revision="cm-11.0" /-->
   <project path="device/samsung/smdk4412-common" name="ArchiDroid/android_device_samsung_smdk4412-common" remote="github" revision="cm-12.0" />
   <project path="hardware/samsung_slsi/exynos4" name="ArchiDroid/android_hardware_samsung_slsi_exynos4" remote="github" revision="cm-12.0" />
-  <!--project path="device/samsung/smdk4412-qcom-common" name="ArchiDroid/android_device_samsung_smdk4412-qcom-common" remote="github" revision="cm-12.0" /-->
   <project path="hardware/samsung" name="Team-UB/android_hardware_samsung" remote="github" revision="cm-12.0" />
   <project path="kernel/samsung/smdk4412" name="ArchiDroid/android_kernel_samsung_smdk4412" remote="github" revision="cm-12.0" />
   <!--project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-12.0" /-->
@@ -597,8 +595,7 @@
   <project path="device/htc/m8" name="CyanogenMod/android_device_htc_m8" remote="github" revision="cm-12.0" />
   <project path="kernel/htc/msm8974" name="CyanogenMod/android_kernel_htc_msm8974" remote="github" revision="cm-12.0" />
   
-  <!-- flo/deb/mako -->
-  <project path="device/asus/deb" name="CyanogenMod/android_device_asus_deb" remote="github" revision="cm-11.0" />
+  <!-- flo/mako -->
   <project path="device/asus/flo" name="CyanogenMod/android_device_asus_flo" remote="github" revision="cm-12.0" />
   <project path="device/lge/mako" name="CyanogenMod/android_device_lge_mako" remote="github" revision="cm-12.0" />
   <project path="kernel/google/msm" name="CyanogenMod/android_kernel_google_msm" remote="github" revision="cm-12.0" />
@@ -611,11 +608,6 @@
   <project path="kernel/moto/wingray" name="TeamEOS/kernel_moto_wingray" remote="github" revision="lp5.0" />
   <project path="vendor/moto/wingray" name="TeamEOS/vendor_moto_wingray" remote="github" revision="lp5.0" />
   <project path="vendor/nvidia/" name="TeamEOS/vendor_nvidia" remote="github" revision="lp5.0" />
-  
-  <!-- captivate --> 
-  <project path="device/samsung/aries-common" name="CyanogenMod/android_device_samsung_aries-common" remote="github" revision="cm-11.0" />
-  <project path="device/samsung/captivatemtd" name="CyanogenMod/android_device_samsung_captivatemtd" remote="github" revision="cm-11.0" />
-  <project path="kernel/samsung/aries" name="CyanogenMod/android_kernel_samsung_aries" remote="github" revision="cm-11.0" />
   
   <!-- falcon --> 
   <project path="kernel/motorola/msm8226" name="CyanogenMod/android_kernel_motorola_msm8226" remote="github" revision="cm-12.0" />
@@ -645,14 +637,14 @@
   
   <!-- t0lte & n7100 -->
   <project path="device/samsung/t0lte" name="CyanogenMod/android_device_samsung_t0lte" remote="github" revision="cm-12.0" />
-  <project path="device/samsung/n7100" name="CyanogenMod/android_device_samsung_n7100" remote="github" revision="cm-11.0" />
+
    
   <!-- hlte -->
   <project path="device/samsung/hlte" name="temasek/android_device_samsung_hlte" remote="github" revision="cm-12.0" />
   <project path="device/samsung/hltespr" name="temasek/android_device_samsung_hltespr" remote="github" revision="cm-12.0" />
   <project path="device/samsung/hltevzw" name="temasek/android_device_samsung_hltevzw" remote="github" revision="cm-12.0" />
   <project path="device/samsung/hlte-common" name="temasek/android_device_samsung_hlte-common" remote="github" revision="cm-12.0" />
-  <project path="kernel/samsung/hlte" name="temasek/android_kernel_samsung_hlte" remote="github" revision="cm-12.0" />
+  <project path="kernel/samsung/hlte" name="temasek/android_kernel_samsung_hlte" remote="github" revision="staging-v1" />
  
   <!-- OPO bacon -->
   <project path="device/oneplus/bacon" name="Team-UB/android_device_oneplus_bacon" remote="github" revision="cm-12.0" />
@@ -668,6 +660,4 @@
   <project path="device/samsung/msm8930-common" name="CyanogenMod/android_device_samsung_msm8930-common" remote="github" revision="cm-12.0" />
   <project path="kernel/samsung/msm8930-common" name="CyanogenMod/android_kernel_samsung_msm8930-common" remote="github" revision="cm-12.0" />
   
-  <!-- emulator -->
-  <project path="device/generic/emulatorx86" name="CyanogenMod/android_device_generic_emulatorx86" remote="github" revision="cm-11.0" />
 </manifest>
