@@ -662,6 +662,7 @@
   
   <!-- t0lte & n7100 -->
   <project path="device/samsung/t0lte" name="CyanogenMod/android_device_samsung_t0lte" remote="github" revision="cm-12.0" />
+  <project path="device/samsung/smdk4412-qcom-common" name="CyanogenMod/android_device_samsung_smdk4412-qcom-common" remote="github" revision="cm-12.0" />
 
    
   <!-- hlte -->
