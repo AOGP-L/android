@@ -627,12 +627,12 @@
   <project path="vendor/asus" name="TheMuppets/proprietary_vendor_asus" remote="github" revision="cm-12.0" />
   <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-12.0" />
  
-  <!-- wingray -->
+  <!-- wingray 
   <project path="device/generic/armv7-a" name="CyanogenMod/android_device_generic_armv7-a" groups="pdk" remote="github" revision="cm-10.1"/>
   <project path="device/moto/wingray" name="TeamEOS/device_moto_wingray" remote="github" revision="lp5.0" />
   <project path="kernel/moto/wingray" name="TeamEOS/kernel_moto_wingray" remote="github" revision="lp5.0" />
   <project path="vendor/moto/wingray" name="TeamEOS/vendor_moto_wingray" remote="github" revision="lp5.0" />
-  <project path="vendor/nvidia/" name="TeamEOS/vendor_nvidia" remote="github" revision="lp5.0" />
+  <project path="vendor/nvidia/" name="TeamEOS/vendor_nvidia" remote="github" revision="lp5.0" /> -->
   
   <!-- falcon --> 
   <project path="kernel/motorola/msm8226" name="CyanogenMod/android_kernel_motorola_msm8226" remote="github" revision="cm-12.0" />
