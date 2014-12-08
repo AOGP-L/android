@@ -667,8 +667,8 @@
    
   <!-- hlte -->
   <project path="device/samsung/hlte" name="CyanogenMod/android_device_samsung_hlte" remote="github" revision="cm-12.0" />
-  <project path="device/samsung/hltespr" name="CyanogenMod/android_device_samsung_hltespr" remote="github" revision="cm-12.0" />
-  <project path="device/samsung/hltevzw" name="CyanogenMod/android_device_samsung_hltevzw" remote="github" revision="cm-12.0" />
+  <!--<project path="device/samsung/hltespr" name="CyanogenMod/android_device_samsung_hltespr" remote="github" revision="cm-12.0" />
+  <project path="device/samsung/hltevzw" name="CyanogenMod/android_device_samsung_hltevzw" remote="github" revision="cm-12.0" /> -->
   <project path="device/samsung/hlte-common" name="CyanogenMod/android_device_samsung_hlte-common" remote="github" revision="cm-12.0" />
   <project path="kernel/samsung/hlte" name="CyanogenMod/android_kernel_samsung_hlte" remote="github" revision="cm-12.0" />
  
