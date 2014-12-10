@@ -348,7 +348,7 @@
   <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   
   <!-- frameworks -->
-  <project path="frameworks/av" name="Team-UB/android_frameworks_av" groups="pdk" />
+  <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
   <project path="frameworks/base" name="Team-UB/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
