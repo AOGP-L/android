@@ -434,11 +434,7 @@
   <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" />
   <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" />
   <project path="packages/apps/Dialer" name="CyanogenMod/android_packages_apps_Dialer" />
-<<<<<<< HEAD
-  <project path="packages/apps/DSPManager" name="CyanogenMod/android_packages_apps_DSPManager" />
-=======
   <project path="packages/apps/Eleven" name="CyanogenMod/android_packages_apps_Eleven" />
->>>>>>> 83334c9... Bring in AudioFX
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" />
   <project path="packages/apps/Exchange" name="CyanogenMod/android_packages_apps_Exchange" />
   <project path="packages/apps/Gallery2" name="CyanogenMod/android_packages_apps_Gallery2" />
