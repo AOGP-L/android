@@ -9,7 +9,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the AOGP trees, use a command like this:
 
-    repo init -u git://github.com/AOGP-L/android.git -b lp
+    repo init -u git://github.com/AOGP-L/android.git -b lp5.0
 
 Then to sync up:
 
