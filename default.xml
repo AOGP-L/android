@@ -451,7 +451,7 @@
   <project path="packages/apps/InCallUI" name="CyanogenMod/android_packages_apps_InCallUI" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" />
   <project path="packages/apps/LockClock" name="CyanogenMod/android_packages_apps_LockClock" />
-  <project path="packages/apps/Mms" name="temasek/android_packages_apps_Mms-caf" />
+  <project path="packages/apps/Mms" name="Team-UB/android_packages_apps_Mms-caf" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="packages/apps/PackageInstaller" name="temasek/android_packages_apps_PackageInstaller" />
