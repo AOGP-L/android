@@ -14,3 +14,8 @@ To initialize your local repository using the AOGP trees, use a command like thi
 Then to sync up:
 
     repo sync
+
+To Build AOGP ROM
+
+      $ . build/envsetup.sh && brunch <device>
+
