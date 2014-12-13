@@ -1,17 +1,21 @@
-Team (UB) Modded CyanogenMod Rom
+Android Open Grand Project
+===========
 
 Getting Started
+---------------
 
-To get started with Android/Team (UB), you'll need to get familiar with Git and Repo.
+To get started with Android/AOGP, you'll need to get
+familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
-To initialize your local repository using the Team-UB trees, use a command like this:
+To initialize your local repository using the AOGP trees, use a command like this:
 
-repo init -u git://github.com/Team-UB/android.git -b cm-12.0
+    repo init -u git://github.com/AOGP-L/android.git -b lp5.0
 
 Then to sync up:
 
-repo sync
+    repo sync
 
-Please see the CyanogenMod Wiki for building instructions.
+To Build AOGP ROM
 
-For more information on this Github Organization and how it is structured, please read the wiki article
+      $ . build/envsetup.sh && brunch <device>
+
