@@ -582,6 +582,9 @@
   <!-- AOGP Vendor -->
   <project path="vendor/aogp" name="AOGP-L/android_vendor_aogp" revision="lp5.0" />
   
+  <!-- AOGP Repos -->
+  <project path="packages/apps/DeviceControl" name="AOGP-L/android_packages_apps_DeviceControl" revision="lp5.0" />
+  
   <!-- Device Vendors -->
   <project path="vendor/lge" name="AOGP-Devices/proprietary_vendor_lge" remote="github" revision="lp" />
   <project path="vendor/samsung" name="AOGP-Devices/proprietary_vendor_samsung" remote="github" revision="lp" />
