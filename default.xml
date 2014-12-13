@@ -6,14 +6,20 @@
            review="android-review.googlesource.com" />
 
   <remote  name="github"
-           fetch="https://github.com"
-           review="review.cyanogenmod.org" />
-
+           fetch="https://github.com" />
+ 
   <remote  name="private"
            fetch="ssh://git@github.com" />
-           
-  <remote  name="bitbucketP"
-           fetch="ssh://git@bitbucket.org" />         
+
+  <remote name="AOGP-L"
+          fetch="https://github.com/AOGP-L/" />
+          
+  <remote name="AOGP-Devices"
+         fetch="https://github.com/AOGP-Devices/" />
+
+  <remote  name="cm"
+           fetch="git://github.com/CyanogenMod/" />
+      
 
   <default revision="refs/heads/cm-12.0"
            remote="github"
@@ -26,11 +32,6 @@
 
   <project path="android" name="AOGP-L/android" revision="lp5.0" />
   
-  <!-- Remove these if you wish to use our repo's as they are private and will not sync -->
-  
-  <project path="scripts" name="team-ub/android_scripts" remote="bitbucketP" revision="master" />
-  <project path="packages/apps/OpenDelta" name="team-ub/android_packages_apps_opendelta" remote="bitbucketP" revision="cm12" />
-
   <!-- misc -->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
