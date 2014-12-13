@@ -463,7 +463,6 @@
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
-  <project path="packages/apps/TUBwallpapers" name="team-ub/android_packages_apps_TUBwallpapers" remote="bitbucketP" revision="cm-11.0" />
   <project path="packages/apps/TvSettings" name="CyanogenMod/android_packages_apps_TvSettings" />
   <!-- <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" /> -->
   <!-- <project path="packages/apps/Torch" name="CyanogenMod/android_packages_apps_Torch" /> -->
