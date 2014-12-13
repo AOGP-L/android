@@ -20,11 +20,11 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="Team-UB/android_build" groups="pdk,tradefed" >
+  <project path="build" name="AOGP-L/android_build" revision="lp5.0" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="Team-UB/android" />
+  <project path="android" name="AOGP-L/android" revision="lp5.0" />
   
   <!-- Remove these if you wish to use our repo's as they are private and will not sync -->
   
@@ -349,7 +349,7 @@
   
   <!-- frameworks -->
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="Team-UB/android_frameworks_base" />
+  <project path="frameworks/base" name="AOGP-L/android_frameworks_base" revision="lp5.0" />
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
@@ -457,7 +457,7 @@
   <project path="packages/apps/PackageInstaller" name="temasek/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
-  <project path="packages/apps/Settings" name="Team-UB/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="AOGP-L/android_packages_apps_Settings" revision="lp5.0" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
@@ -580,108 +580,13 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.1_r1" />
   
-  <!-- vendor -->
-  <project path="vendor/cm" name="Team-UB/android_vendor_cm" />
+  <!-- AOGP Vendor -->
+  <project path="vendor/aogp" name="AOGP-L/android_vendor_aogp" revision="lp5.0" >
   
-  <!-- devices -->
-  
-  <!-- i9300 -->
-  <project path="device/samsung/i9300" name="Team-UB/android_device_samsung_i9300" remote="github" revision="cm-12.0" />
-  <project path="device/samsung/smdk4412-common" name="ArchiDroid/android_device_samsung_smdk4412-common" remote="github" revision="cm-12.0" />
-  <project path="hardware/samsung_slsi/exynos4" name="ArchiDroid/android_hardware_samsung_slsi_exynos4" remote="github" revision="cm-12.0" />
-  <project path="hardware/samsung" name="Team-UB/android_hardware_samsung" remote="github" revision="cm-12.0" />
-  <project path="kernel/samsung/smdk4412" name="ArchiDroid/android_kernel_samsung_smdk4412" remote="github" revision="cm-12.0" />
-  <!--project path="packages/apps/SamsungServiceMode" name="CyanogenMod/android_packages_apps_SamsungServiceMode" remote="github" revision="cm-12.0" /-->
-  <project path="vendor/samsung" name="Team-UB/proprietary_vendor_samsung" remote="github" revision="cm-12.0" />
-  
-  <!-- manta -->
-  <project path="device/samsung/manta" name="CyanogenMod/android_device_samsung_manta" remote="github" revision="cm-12.0" />
-  <project path="kernel/samsung/manta" name="CyanogenMod/android_kernel_samsung_manta" remote="github" revision="cm-12.0" />
-  <project path="vendor/audience" name="TheMuppets/proprietary_vendor_audience" remote="github" revision="cm-12.0" />
-  <project path="vendor/broadcom" name="TheMuppets/proprietary_vendor_broadcom" remote="github" revision="cm-12.0" />
-  <project path="vendor/widevine" name="TheMuppets/proprietary_vendor_widevine" remote="github" revision="cm-12.0" />
-  
-  <!-- a5 -->
-  <project path="device/htc/a5" name="CyanogenMod/android_device_htc_a5" remote="github" revision="cm-12.0" />
-  
-  <!-- m7 -->
-  <project path="device/htc/m7" name="CyanogenMod/android_device_htc_m7" remote="github" revision="cm-12.0" />
-  <project path="device/htc/m7-common" name="CyanogenMod/android_device_htc_m7-common" remote="github" revision="cm-12.0" />
-  <project path="device/htc/msm8960-common" name="CyanogenMod/android_device_htc_msm8960-common" remote="github" revision="cm-12.0" />
-  <project path="kernel/htc/m7" name="CyanogenMod/android_kernel_htc_m7" remote="github" revision="cm-12.0" />
-  <project path="kernel/htc/msm8960" name="CyanogenMod/android_kernel_htc_msm8960" remote="github" revision="cm-12.0" />
-  <project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" remote="github" revision="cm-12.0" />
-  
-  <!-- m8 -->
-  <project path="device/htc/m8" name="Team-UB/android_device_htc_m8" remote="github" revision="cm-12.0" />
-  <project path="kernel/htc/msm8974" name="CyanogenMod/android_kernel_htc_msm8974" remote="github" revision="cm-12.0" />
-  
-  <!-- flo/mako/grouper -->
-  <project path="device/asus/flo" name="CyanogenMod/android_device_asus_flo" remote="github" revision="cm-12.0" />
-  <project path="device/lge/mako" name="CyanogenMod/android_device_lge_mako" remote="github" revision="cm-12.0" />
-  <project path="kernel/google/msm" name="CyanogenMod/android_kernel_google_msm" remote="github" revision="cm-12.0" />
-  <project path="device/asus/grouper" name="CyanogenMod/android_device_asus_grouper" remote="github" revision="cm-12.0" />
-  <project path="kernel/asus/grouper" name="CyanogenMod/android_kernel_asus_grouper" remote="github" revision="cm-12.0" />
-  <project path="vendor/asus" name="TheMuppets/proprietary_vendor_asus" remote="github" revision="cm-12.0" />
-  <project path="vendor/lge" name="TheMuppets/proprietary_vendor_lge" remote="github" revision="cm-12.0" />
- 
-  <!-- wingray 
-  <project path="device/generic/armv7-a" name="CyanogenMod/android_device_generic_armv7-a" groups="pdk" remote="github" revision="cm-10.1"/>
-  <project path="device/moto/wingray" name="TeamEOS/device_moto_wingray" remote="github" revision="lp5.0" />
-  <project path="kernel/moto/wingray" name="TeamEOS/kernel_moto_wingray" remote="github" revision="lp5.0" />
-  <project path="vendor/moto/wingray" name="TeamEOS/vendor_moto_wingray" remote="github" revision="lp5.0" />
-  <project path="vendor/nvidia/" name="TeamEOS/vendor_nvidia" remote="github" revision="lp5.0" /> -->
-  
-  <!-- falcon --> 
-  <project path="kernel/motorola/msm8226" name="CyanogenMod/android_kernel_motorola_msm8226" remote="github" revision="cm-12.0" />
-  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="cm-12.0" />
-  <project path="device/motorola/msm8226-common" name="CyanogenMod/android_device_motorola_msm8226-common" remote="github" revision="cm-12.0" />
-  <project path="device/motorola/falcon" name="CyanogenMod/android_device_motorola_falcon" remote="github" revision="cm-12.0" />
-  <project path="vendor/motorola" name="TheMuppets/proprietary_vendor_motorola" remote="github" revision="cm-12.0" />
-  <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" remote="github" revision="cm-12.0" />
-   
-  <!-- klte -->
-  <project path="device/samsung/klte" name="Team-Hydra/android_device_samsung_klte" remote="github" revision="cm-12.0" />
-  <project path="device/samsung/kltevzw" name="Team-Hydra/android_device_samsung_kltevzw" remote="github" revision="cm-12.0" />
-  <project path="device/samsung/kltespr" name="Team-Hydra/android_device_samsung_kltespr" remote="github" revision="cm-12.0" />
-  <project path="device/samsung/klte-common" name="Team-UB/android_device_samsung_klte-common" remote="github" revision="cm-12.0" />
-  <project path="device/samsung/msm8974-common" name="Team-Hydra/android_device_samsung_msm8974-common" remote="github" revision="cm-12.0" />
-  <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" remote="github" revision="cm-12.0" />
-  <project path="kernel/samsung/klte" name="Team-Hydra/android_kernel_samsung_klte" remote="github" revision="cm-12.0" />
-   
-  <!-- hammerhead --> 
-  <project path="device/lge/hammerhead" name="CyanogenMod/android_device_lge_hammerhead" remote="github" revision="cm-12.0" />
-  <project path="kernel/lge/hammerhead" name="CyanogenMod/android_kernel_lge_hammerhead" remote="github" revision="cm-12.0" />
-  
-  <!-- jflte -->
-  <project path="device/samsung/jflte" name="CyanogenMod/android_device_samsung_jflte" remote="github" revision="cm-12.0" />
-  <project path="device/samsung/jf-common" name="CyanogenMod/android_device_samsung_jf-common" remote="github" revision="cm-12.0" />
-  <project path="kernel/samsung/jf" name="CyanogenMod/android_kernel_samsung_jf" remote="github" revision="cm-12.0" />
-  
-  <!-- t0lte & n7100 -->
-  <project path="device/samsung/t0lte" name="CyanogenMod/android_device_samsung_t0lte" remote="github" revision="cm-12.0" />
-  <project path="device/samsung/smdk4412-qcom-common" name="CyanogenMod/android_device_samsung_smdk4412-qcom-common" remote="github" revision="cm-12.0" />
-
-   
-  <!-- hlte -->
-  <project path="device/samsung/hlte" name="temasek/android_device_samsung_hlte" remote="github" revision="cm-12.0" />
-  <project path="device/samsung/hltespr" name="temasek/android_device_samsung_hltespr" remote="github" revision="cm-12.0" />
-  <project path="device/samsung/hltevzw" name="temasek/android_device_samsung_hltevzw" remote="github" revision="cm-12.0" />
-  <project path="device/samsung/hlte-common" name="temasek/android_device_samsung_hlte-common" remote="github" revision="cm-12.0" />
-  <project path="kernel/samsung/hlte" name="temasek/android_kernel_samsung_hlte" remote="github" revision="staging-v1" />
- 
-  <!-- OPO bacon -->
-  <project path="device/oneplus/bacon" name="Team-UB/android_device_oneplus_bacon" remote="github" revision="cm-12.0" />
-  <project path="device/oppo/common" name="CyanogenMod/android_device_oppo_common" remote="github" revision="cm-12.0" />
-  <project path="kernel/oneplus/msm8974" name="CyanogenMod/android_kernel_oneplus_msm8974" remote="github" revision="cm-12.0" />
-  <project path="device/oppo/msm8974-common" name="CyanogenMod/android_device_oppo_msm8974-common" remote="github" revision="cm-12.0" />
-  <project path="vendor/oneplus" name="TheMuppets/proprietary_vendor_oneplus" remote="github" revision="cm-12.0" />
-  <project path="vendor/oppo" name="TheMuppets/proprietary_vendor_oppo" remote="github" revision="cm-12.0" />
-
-  <!-- serranoltexx -->
-  <project path="device/samsung/serranoltexx" name="CyanogenMod/android_device_samsung_serranoltexx" remote="github" revision="cm-12.0" />
-  <project path="device/samsung/serrano-common" name="CyanogenMod/android_device_samsung_serrano-common" remote="github" revision="cm-12.0" />
-  <project path="device/samsung/msm8930-common" name="CyanogenMod/android_device_samsung_msm8930-common" remote="github" revision="cm-12.0" />
-  <project path="kernel/samsung/msm8930-common" name="CyanogenMod/android_kernel_samsung_msm8930-common" remote="github" revision="cm-12.0" />
+  <!-- Device Vendors -->
+  <project path="vendor/lge" name="AOGP-Devices/proprietary_vendor_lge" remote="github" revision="lp" />
+  <project path="vendor/samsung" name="AOGP-Devices/proprietary_vendor_samsung" remote="github" revision="lp" />
+  <project path="vendor/htc" name="AOGP-Devices/proprietary_vendor_htc" remote="github" revision="lp" />
+  <project path="vendor/motorola" name="AOGP-Devices/proprietary_vendor_motorola" remote="github" revision="lp" />
   
 </manifest>
