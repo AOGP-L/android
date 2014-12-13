@@ -19,7 +19,6 @@
 
   <remote  name="cm"
            fetch="git://github.com/CyanogenMod/" />
-      
 
   <default revision="refs/heads/cm-12.0"
            remote="github"
@@ -589,5 +588,4 @@
   <project path="vendor/samsung" name="AOGP-Devices/proprietary_vendor_samsung" remote="github" revision="lp" />
   <project path="vendor/htc" name="AOGP-Devices/proprietary_vendor_htc" remote="github" revision="lp" />
   <project path="vendor/motorola" name="AOGP-Devices/proprietary_vendor_motorola" remote="github" revision="lp" />
-  
 </manifest>
