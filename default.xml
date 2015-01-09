@@ -573,6 +573,7 @@
   <project path="vendor/samsung" name="AOGP-Devices/proprietary_vendor_samsung" remote="github" revision="lp" />
   <project path="vendor/htc" name="AOGP-Devices/proprietary_vendor_htc" remote="github" revision="lp" />
   <project path="vendor/motorola" name="AOGP-Devices/proprietary_vendor_motorola" remote="github" revision="lp" />
+  <project path="vendor/samsung/galaxys2plus-common" name="AOGP-Devices/proprietary_vendor_samsung_galaxys2plus-common" remote="github" revision="lp" />
 
  <!-- AOGP Repos -->
 <project path="packages/apps/DeviceControl" name="AOGP-L/android_packages_apps_DeviceControl" revision="lp5.0" />
