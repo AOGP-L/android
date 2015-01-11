@@ -581,7 +581,6 @@
 <project name="AOGP-L/patches" path="patches" remote="github" revision="lp5.0" />
 <project path="packages/apps/MsimEnDe" name="AOGP-L/android_packages_apps_MsimEnDe" revision="lp5.0" />
 <project name="CyanogenMod/android_hardware_samsung" path="hardware/samsung" remote="github" revision="cm-12.0" />
-<project name="CyanogenMod/android_packages_apps_SamsungServiceMode" path="packages/apps/SamsungServiceMode" remote="github" revision="cm-12.0" />
 <project path="packages/apps/ScreenRecorder" name="AOGP-L/android_packages_apps_ScreenRecorder" remote="github" revision="lp5.0" />
 
 </manifest>
